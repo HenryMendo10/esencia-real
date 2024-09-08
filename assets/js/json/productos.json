@@ -1,0 +1,178 @@
+{
+    "collares": [
+        { 
+            "nombre": "Collar 1", 
+            "precio": "$22.00", 
+            "imagen": "assets/img/new-product-1.jpg",
+            "imagen2": "assets/img/new-product-1.jpg",
+            "imagen3": "assets/img/new-product-1.jpg",
+            "imagen4": "assets/img/new-product-1.jpg",
+            "introduccion": "Elegante collar", 
+            "oro": true, 
+            "plata": false, 
+            "caracteristicas": ["Resistente al agua", "Ajustable"], 
+            "descripcion1": "Collar con diseño moderno", 
+            "descripcion2": "Ideal para ocasiones especiales" 
+        },
+        { 
+            "nombre": "Collar 2", 
+            "precio": "$24.00", 
+            "imagen": "assets/img/new-product-2.jpg",
+            "imagen2": "assets/img/new-product-1.jpg",
+            "imagen3": "assets/img/new-product-1.jpg",
+            "imagen4": "assets/img/new-product-1.jpg",
+            "introduccion": "Collar clásico", 
+            "oro": true, 
+            "plata": true, 
+            "caracteristicas": ["Hecho a mano"], 
+            "descripcion1": "Diseño clásico y sofisticado", 
+            "descripcion2": "Perfecto para el uso diario" 
+        },
+        { 
+            "nombre": "Collar 3", 
+            "precio": "$26.00", 
+            "imagen": "assets/img/new-product-3.jpg",
+            "imagen2": "assets/img/new-product-1.jpg",
+            "imagen3": "assets/img/new-product-1.jpg",
+            "imagen4": "assets/img/new-product-1.jpg",
+            "introduccion": "Collar de lujo", 
+            "oro": false, 
+            "plata": true, 
+            "caracteristicas": ["Lujoso"], 
+            "descripcion1": "Collar de plata pura", 
+            "descripcion2": "Ideal para eventos formales" 
+        }
+    ],
+    "aretes": [
+        { 
+            "nombre": "Aretes 1", 
+            "precio": "$15.00", 
+            "imagen": "assets/img/new-product-1.jpg", 
+            "imagen2": "assets/img/new-product-1.jpg",
+            "imagen3": "assets/img/new-product-1.jpg",
+            "imagen4": "assets/img/new-product-1.jpg",
+            "introduccion": "Aretes delicados", 
+            "oro": false, 
+            "plata": true, 
+            "caracteristicas": ["Elegantes", "Cómodos"], 
+            "descripcion1": "Aretes de plata delicados", 
+            "descripcion2": "Perfectos para el uso diario" 
+        },
+        { 
+            "nombre": "Aretes 2", 
+            "precio": "$17.00", 
+            "imagen": "assets/img/new-product-2.jpg", 
+            "imagen2": "assets/img/new-product-1.jpg",
+            "imagen3": "assets/img/new-product-1.jpg",
+            "imagen4": "assets/img/new-product-1.jpg",
+            "introduccion": "Aretes con estilo", 
+            "oro": true, 
+            "plata": true, 
+            "caracteristicas": ["Diseño exclusivo"], 
+            "descripcion1": "Aretes con diseño único", 
+            "descripcion2": "Para ocasiones especiales" 
+        },
+        { 
+            "nombre": "Aretes 3", 
+            "precio": "$19.00", 
+            "imagen": "assets/img/new-product-3.jpg", 
+            "imagen2": "assets/img/new-product-1.jpg",
+            "imagen3": "assets/img/new-product-1.jpg",
+            "imagen4": "assets/img/new-product-1.jpg",
+            "introduccion": "Aretes llamativos", 
+            "oro": true, 
+            "plata": false, 
+            "caracteristicas": ["Brillantes"], 
+            "descripcion1": "Aretes de oro brillante", 
+            "descripcion2": "Para eventos elegantes" 
+        }
+    ],
+    "pulseras": [
+        { 
+            "nombre": "Pulsera 1", 
+            "precio": "$30.00", 
+            "imagen": "assets/img/new-product-1.jpg", 
+            "imagen2": "assets/img/new-product-1.jpg",
+            "imagen3": "assets/img/new-product-1.jpg",
+            "imagen4": "assets/img/new-product-1.jpg",
+            "introduccion": "Pulsera versátil", 
+            "oro": true, 
+            "plata": false, 
+            "caracteristicas": ["Duradera"], 
+            "descripcion1": "Pulsera de oro duradera", 
+            "descripcion2": "Perfecta para el uso diario" 
+        },
+        { 
+            "nombre": "Pulsera 2", 
+            "precio": "$32.00", 
+            "imagen": "assets/img/new-product-2.jpg", 
+            "imagen2": "assets/img/new-product-1.jpg",
+            "imagen3": "assets/img/new-product-1.jpg",
+            "imagen4": "assets/img/new-product-1.jpg",
+            "introduccion": "Pulsera elegante", 
+            "oro": true, 
+            "plata": true, 
+            "caracteristicas": ["Diseño moderno"], 
+            "descripcion1": "Pulsera con diseño moderno", 
+            "descripcion2": "Para ocasiones especiales" 
+        },
+        { 
+            "nombre": "Pulsera 3", 
+            "precio": "$34.00", 
+            "imagen": "assets/img/new-product-3.jpg", 
+            "imagen2": "assets/img/new-product-1.jpg",
+            "imagen3": "assets/img/new-product-1.jpg",
+            "imagen4": "assets/img/new-product-1.jpg",
+            "introduccion": "Pulsera de lujo", 
+            "oro": false, 
+            "plata": true, 
+            "caracteristicas": ["Exclusiva"], 
+            "descripcion1": "Pulsera de plata pura", 
+            "descripcion2": "Ideal para eventos importantes" 
+        }
+    ],
+    "coleccion": [
+        { 
+            "nombre": "Colección 1", 
+            "precio": "$40.00", 
+            "imagen": "assets/img/new-product-1.jpg", 
+            "imagen2": "assets/img/new-product-1.jpg",
+            "imagen3": "assets/img/new-product-1.jpg",
+            "imagen4": "assets/img/new-product-1.jpg",
+            "introduccion": "Colección exclusiva", 
+            "oro": true, 
+            "plata": false, 
+            "caracteristicas": ["Elegante"], 
+            "descripcion1": "Colección de piezas exclusivas", 
+            "descripcion2": "Perfecta para coleccionistas" 
+        },
+        { 
+            "nombre": "Colección 2", 
+            "precio": "$42.00", 
+            "imagen": "assets/img/new-product-2.jpg", 
+            "imagen2": "assets/img/new-product-1.jpg",
+            "imagen3": "assets/img/new-product-1.jpg",
+            "imagen4": "assets/img/new-product-1.jpg",
+            "introduccion": "Colección moderna", 
+            "oro": true, 
+            "plata": true, 
+            "caracteristicas": ["Diseño único"], 
+            "descripcion1": "Colección con diseño único", 
+            "descripcion2": "Ideal para cualquier ocasión" 
+        },
+        { 
+            "nombre": "Colección 3", 
+            "precio": "$44.00", 
+            "imagen": "assets/img/new-product-3.jpg",
+            "imagen2": "assets/img/new-product-1.jpg",
+            "imagen3": "assets/img/new-product-1.jpg",
+            "imagen4": "assets/img/new-product-1.jpg", 
+            "introduccion": "Colección de lujo", 
+            "oro": false, 
+            "plata": true, 
+            "caracteristicas": ["Exclusiva"], 
+            "descripcion1": "Colección de lujo en plata", 
+            "descripcion2": "Para eventos especiales" 
+        }
+    ]
+}

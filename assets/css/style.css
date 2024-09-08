@@ -3260,19 +3260,19 @@ address strong, address b {
 }
 
 .color-option-select .color-item.black {
-    background-color: #000;
+    background-color: goldenrod;
 }
 
 .color-option-select .color-item.black .color-hvr .color-fill {
-    background-color: #000;
+    background-color: goldenrod;
 }
 
-.color-option-select .color-item.orange {
-    background-color: #f5740a;
+.color-option-select .color-item.silver {
+    background-color: silver;
 }
 
-.color-option-select .color-item.orange .color-hvr .color-fill {
-    background-color: #f5740a;
+.color-option-select .color-item.silver .color-hvr .color-fill {
+    background-color: silver;
 }
 
 .color-option-select .color-item.yellow {

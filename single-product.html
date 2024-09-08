@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="meta description">
 
-    <title>Single Product :: Ruby - Jewelry Store e-Commerce Bootstrap 4 Template</title>
+    <title>Esencia Real</title>
 
     <!--=== Favicon ===-->
     <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon"/>
@@ -330,44 +330,29 @@
             <div class="col-lg-12">
                 <div class="single-product-page-content">
                     <div class="row">
-                            <div class="col-sm-7 mt-5 mt-lg-0 d-sm-none">
-                                <div class="product-details">
-                                    <div class="ocultar d-sm-none">
-                                        <h2><a href="single-product.html">Crown Summit Backpack</a></h2>
-    
-                                        <div class="rating">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-half"></i>
-                                            <i class="fa fa-star-o"></i>
-                                        </div>
-                                        
-                                        <span class="price">$52.00</span>
+                        <div class="col-sm-7 mt-5 mt-lg-0 d-sm-none">
+                            <div class="product-details">
+                                <div class="ocultar d-sm-none">
+                                    <h2><a id="product-name"></a></h2>
+
+                                    <div class="rating" id="product-rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-half"></i>
+                                        <i class="fa fa-star-o"></i>
                                     </div>
+                                    
+                                    <span class="price" id="product-price"></span>
                                 </div>
                             </div>
-                        
+                        </div>
 
                         <!-- Product Thumbnail Start -->
                         <div class="col-12 col-lg-5 col-sm-5">
                             <div class="product-thumbnail-wrap">
-                                <div class="product-thumb-carousel owl-carousel">
-                                    <div class="single-thumb-item">
-                                        <a href="single-product.html"><img class="img-fluid" src="assets/img/single-pro-thumb.jpg" alt="Product"/></a>
-                                    </div>
-
-                                    <div class="single-thumb-item">
-                                        <a href="single-product.html"><img class="img-fluid" src="assets/img/single-pro-thumb-2.jpg" alt="Product"/></a>
-                                    </div>
-
-                                    <div class="single-thumb-item">
-                                        <a href="single-product.html"><img class="img-fluid" src="assets/img/single-pro-thumb-3.jpg" alt="Product"/></a>
-                                    </div>
-
-                                    <div class="single-thumb-item">
-                                        <a href="single-product.html"><img class="img-fluid" src="assets/img/single-pro-thumb-4.jpg" alt="Product"/></a>
-                                    </div>
+                                <div class="product-thumb-carousel owl-carousel" id="product-carousel">
+                                    <!-- Las imágenes serán insertadas aquí -->
                                 </div>
                             </div>
                         </div>
@@ -377,9 +362,9 @@
                         <div class="col-sm-7 mt-5 mt-lg-0">
                             <div class="product-details">
                                 <div class="ocultar d-none d-sm-block">
-                                    <h2><a href="single-product.html">Crown Summit Backpack</a></h2>
+                                    <h2><a id="product-name-detailed"></a></h2>
 
-                                    <div class="rating">
+                                    <div class="rating" id="product-rating-detailed">
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
@@ -387,79 +372,45 @@
                                         <i class="fa fa-star-o"></i>
                                     </div>
                                     
-                                    <span class="price">$52.00</span>
+                                    <span class="price" id="product-price-detailed"></span>
                                 </div>
 
-                                <p class="products-desc">Ideal for cold-weathered training worked lorem ipsum outdoors,
-                                    the Chaz Hoodie promises superior warmth with every wear. </p>
+                                <p class="products-desc" id="product-introduction"></p>
 
-                                <div class="shopping-option-item">
-                                    <h4>Color</h4>
+                                <div id="product-colors" class="shopping-option-item">
                                     <ul class="color-option-select d-flex">
-                                        <li class="color-item black">
-                                            <div class="color-hvr">
-                                                <span class="color-fill"></span>
-                                                <span class="color-name">Black</span>
-                                            </div>
-                                        </li>
-
-                                        <li class="color-item green">
-                                            <div class="color-hvr">
-                                                <span class="color-fill"></span>
-                                                <span class="color-name">green</span>
-                                            </div>
-                                        </li>
-
-                                        <li class="color-item orange">
-                                            <div class="color-hvr">
-                                                <span class="color-fill"></span>
-                                                <span class="color-name">Orange</span>
-                                            </div>
-                                        </li>
+                                        <!-- Las opciones de color se insertarán aquí -->
                                     </ul>
                                 </div>
+                                
 
-                                <div class="product-btn-group">
-                                    <a class="btn btn-add-to-cart btn-whislist">+ Add to
-                                        Wishlist</a>
-                                    <a class="btn btn-add-to-cart btn-whislist">+ Add to
-                                        Compare</a>
+                                <div id="product-features" class="product-btn-group">
+                                    <!-- Las características se insertarán aquí -->
                                 </div>
+                                
 
                                 <div class="ocultar d-none d-md-block">
                                     <!-- Product Full Description Start -->
-                                        <div class="product-full-info-reviews">
-                                            <!-- Single Product tab Menu -->
-                                            <nav class="nav" id="nav-tab">
-                                                <a class="active" id="description-tab" data-toggle="tab" href="#description">Description</a>
-                                                <a id="reviews-tab" data-toggle="tab" href="#reviews">Reviews</a>
-                                            </nav>
-                                            <!-- Single Product tab Menu -->
-    
-                                            <!-- Single Product tab Content -->
-                                            <div class="tab-content" id="nav-tabContent">
-                                                <div class="tab-pane fade show active" id="description">
-                                                    <p>Stay comfortable and stay in the race no matter what the weather's up to. The
-                                                        Bruno Compete Hoodie's water-repellent exterior shields you from the
-                                                        elements, while advanced fabric technology inside wicks moisture to keep you
-                                                        dry.</p>
-                                                </div>
-    
-                                                <div class="tab-pane fade" id="reviews">
-                                                    <div class="row">
-                                                        <div class="col-lg-7">
-                                                            <div class="product-ratting-wrap">
-                                                                <div class="pro-avg-ratting">
-                                                                    <h4>4.5 <span>(Overall)</span></h4>
-                                                                    <span>Based on 9 Comments</span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                    <div class="product-full-info-reviews">
+                                        <!-- Single Product tab Menu -->
+                                        <nav class="nav" id="nav-tab">
+                                            <a class="active" id="description-tab" data-toggle="tab" href="#description">Descripcion 1</a>
+                                            <a id="reviews-tab" data-toggle="tab" href="#reviews">Descripcion 2</a>
+                                        </nav>
+                                        <!-- Single Product tab Menu -->
+
+                                        <!-- Single Product tab Content -->
+                                        <div class="tab-content" id="nav-tabContent">
+                                            <div class="tab-pane fade show active" id="description">
+                                                <p id="product-description1"></p>
                                             </div>
-                                            <!-- Single Product tab Content -->
+
+                                            <div class="tab-pane fade" id="reviews">
+                                                <p id="product-description2"></p>
+                                            </div>
                                         </div>
+                                        <!-- Single Product tab Content -->
+                                    </div>
                                     <!-- Product Full Description End -->
                                 </div>
                             </div>
@@ -471,41 +422,28 @@
                         <div class="col-lg-12">
                             <div class="ocultar d-md-none d-block">
                                 <!-- Product Full Description Start -->
-                                    <div class="product-full-info-reviews">
-                                        <!-- Single Product tab Menu -->
-                                        <nav class="nav" id="nav-tab">
-                                            <a class="active" id="description-tab" data-toggle="tab" href="#description">Description</a>
-                                            <a id="reviews-tab" data-toggle="tab" href="#reviews">Reviews</a>
-                                        </nav>
-                                        <!-- Single Product tab Menu -->
+                                <div class="product-full-info-reviews">
+                                    <!-- Single Product tab Menu -->
+                                    <nav class="nav" id="nav-tab">
+                                        <a class="active" id="description-tab" data-toggle="tab" href="#description">Descripcion 1</a>
+                                        <a id="reviews-tab" data-toggle="tab" href="#reviews">Descripcion 2</a>
+                                    </nav>
+                                    <!-- Single Product tab Menu -->
 
-                                        <!-- Single Product tab Content -->
-                                        <div class="tab-content" id="nav-tabContent">
-                                            <div class="tab-pane fade show active" id="description">
-                                                <p>Stay comfortable and stay in the race no matter what the weather's up to. The
-                                                    Bruno Compete Hoodie's water-repellent exterior shields you from the
-                                                    elements, while advanced fabric technology inside wicks moisture to keep you
-                                                    dry.</p>
-                                            </div>
-
-                                            <div class="tab-pane fade" id="reviews">
-                                                <div class="row">
-                                                    <div class="col-lg-7">
-                                                        <div class="product-ratting-wrap">
-                                                            <div class="pro-avg-ratting">
-                                                                <h4>4.5 <span>(Overall)</span></h4>
-                                                                <span>Based on 9 Comments</span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                    <!-- Single Product tab Content -->
+                                    <div class="tab-content" id="nav-tabContent">
+                                        <div class="tab-pane fade show active" id="description">
+                                            <p id="product-description1-mobile"></p>
                                         </div>
-                                        <!-- Single Product tab Content -->
+
+                                        <div class="tab-pane fade" id="reviews">
+                                            <p id="product-description2-mobile"></p>
+                                        </div>
                                     </div>
+                                    <!-- Single Product tab Content -->
+                                </div>
                                 <!-- Product Full Description End -->
                             </div>
-                            
                         </div>
                     </div>
                 </div>
@@ -518,72 +456,6 @@
 
 <!-- Footer Area Start -->
 <footer id="footer-area">
-    <!-- Footer Call to Action Start -->
-    <div class="footer-callto-action">
-        <div class="ruby-container">
-            <div class="callto-action-wrapper">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6">
-                        <!-- Single Call-to Action Start -->
-                        <div class="single-callto-action d-flex">
-                            <figure class="callto-thumb">
-                                <img src="assets/img/air-plane.png" alt="WorldWide Shipping"/>
-                            </figure>
-                            <div class="callto-info">
-                                <h2>Free Shipping Worldwide</h2>
-                                <p>On order over $150 - 7 days a week</p>
-                            </div>
-                        </div>
-                        <!-- Single Call-to Action End -->
-                    </div>
-
-                    <div class="col-lg-3 col-md-6">
-                        <!-- Single Call-to Action Start -->
-                        <div class="single-callto-action d-flex">
-                            <figure class="callto-thumb">
-                                <img src="assets/img/support.png" alt="Support"/>
-                            </figure>
-                            <div class="callto-info">
-                                <h2>24/7 CUSTOMER SERVICE</h2>
-                                <p>Call us 24/7 at 000 - 123 - 456k</p>
-                            </div>
-                        </div>
-                        <!-- Single Call-to Action End -->
-                    </div>
-
-                    <div class="col-lg-3 col-md-6">
-                        <!-- Single Call-to Action Start -->
-                        <div class="single-callto-action d-flex">
-                            <figure class="callto-thumb">
-                                <img src="assets/img/money-back.png" alt="Money Back"/>
-                            </figure>
-                            <div class="callto-info">
-                                <h2>MONEY BACK Guarantee!</h2>
-                                <p>Send within 30 days</p>
-                            </div>
-                        </div>
-                        <!-- Single Call-to Action End -->
-                    </div>
-
-                    <div class="col-lg-3 col-md-6">
-                        <!-- Single Call-to Action Start -->
-                        <div class="single-callto-action d-flex">
-                            <figure class="callto-thumb">
-                                <img src="assets/img/cog.png" alt="Guide"/>
-                            </figure>
-                            <div class="callto-info">
-                                <h2>SHOPPING GUIDE</h2>
-                                <p>Quis Eum Iure Reprehenderit</p>
-                            </div>
-                        </div>
-                        <!-- Single Call-to Action End -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Footer Call to Action End -->
-
     <!-- Footer Follow Up Area Start -->
     <div class="footer-followup-area">
         <div class="ruby-container">
@@ -611,53 +483,6 @@
     </div>
     <!-- Footer Follow Up Area End -->
 
-    <!-- Footer Image Gallery Area Start -->
-    <div class="footer-image-gallery">
-        <div class="ruby-container">
-            <div class="image-gallery-wrapper">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="imgage-gallery-carousel owl-carousel">
-                            <div class="gallery-item">
-                                <a href="#"><img src="assets/img/gallery-img-1.jpg" alt="Gallery"/></a>
-                            </div>
-                            <div class="gallery-item">
-                                <a href="#"><img src="assets/img/gallery-img-2.jpg" alt="Gallery"/></a>
-                            </div>
-                            <div class="gallery-item">
-                                <a href="#"><img src="assets/img/gallery-img-3.jpg" alt="Gallery"/></a>
-                            </div>
-                            <div class="gallery-item">
-                                <a href="#"><img src="assets/img/gallery-img-4.jpg" alt="Gallery"/></a>
-                            </div>
-                            <div class="gallery-item">
-                                <a href="#"><img src="assets/img/gallery-img-3.jpg" alt="Gallery"/></a>
-                            </div>
-                            <div class="gallery-item">
-                                <a href="#"><img src="assets/img/gallery-img-2.jpg" alt="Gallery"/></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Footer Image Gallery Area End -->
-
-    <!-- Copyright Area Start -->
-    <div class="copyright-area">
-        <div class="ruby-container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="copyright-text">
-                        <p><a target="_blank" href="https://www.templateshub.net">Templates Hub</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Copyright Area End -->
-
 </footer>
 <!-- Footer Area End -->
 
@@ -680,6 +505,35 @@
 
 <!--=== Active Js ===-->
 <script src="assets/js/active.js"></script>
+
+
+<script type="module" src="assets/js/app.js"></script>
 </body>
 
 </html>
+
+
+<div class="shopping-option-item">
+    <ul class="color-option-select d-flex">
+        <li class="color-item black">
+            <div class="color-hvr">
+                <span class="color-fill"></span>
+                <span class="color-name">Black</span>
+            </div>
+        </li>
+
+        <li class="color-item green">
+            <div class="color-hvr">
+                <span class="color-fill"></span>
+                <span class="color-name">green</span>
+            </div>
+        </li>
+
+        <li class="color-item orange">
+            <div class="color-hvr">
+                <span class="color-fill"></span>
+                <span class="color-name">Orange</span>
+            </div>
+        </li>
+    </ul>
+</div>

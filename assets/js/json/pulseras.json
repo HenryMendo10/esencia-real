@@ -1,0 +1,44 @@
+[
+    { 
+        "nombre": "Pulsera 1", 
+        "precio": "$22.00", 
+        "imagen": "assets/img/new-product-1.jpg",
+        "imagen2": "assets/img/new-product-1.jpg",
+        "imagen3": "assets/img/new-product-1.jpg",
+        "imagen4": "assets/img/new-product-1.jpg",
+        "introduccion": "Elegante Pulsera", 
+        "oro": true, 
+        "plata": false, 
+        "caracteristicas": ["Resistente al agua", "Ajustable"], 
+        "descripcion1": "Pulsera con diseño moderno", 
+        "descripcion2": "Ideal para ocasiones especiales" 
+    },
+    { 
+        "nombre": "Pulsera 2", 
+        "precio": "$22.00", 
+        "imagen": "assets/img/new-product-2.jpg",
+        "imagen2": "assets/img/new-product-1.jpg",
+        "imagen3": "assets/img/new-product-1.jpg",
+        "imagen4": "assets/img/new-product-1.jpg",
+        "introduccion": "Elegante Pulsera", 
+        "oro": true, 
+        "plata": false, 
+        "caracteristicas": ["Resistente al agua", "Ajustable"], 
+        "descripcion1": "Pulsera con diseño moderno", 
+        "descripcion2": "Ideal para ocasiones especiales" 
+    },
+    { 
+        "nombre": "Pulsera 3", 
+        "precio": "$22.00", 
+        "imagen": "assets/img/new-product-3.jpg",
+        "imagen2": "assets/img/new-product-1.jpg",
+        "imagen3": "assets/img/new-product-1.jpg",
+        "imagen4": "assets/img/new-product-1.jpg",
+        "introduccion": "Elegante Pulsera", 
+        "oro": true, 
+        "plata": false, 
+        "caracteristicas": ["Resistente al agua", "Ajustable"], 
+        "descripcion1": "Pulsera con diseño moderno", 
+        "descripcion2": "Ideal para ocasiones especiales" 
+    }
+]
