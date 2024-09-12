@@ -104,29 +104,33 @@
 
         // New Product Two Carousel JS
         $('.new-products-carousel-two').owlCarousel({
-            items: 2,
+            items: 4,
             dots: false,
             nav: false,
             navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
-            margin: 30,
+            margin: 20,
             responsive: {
                 // breakpoint from 0 up
                 0: {
                     items: 2,
-                    autoPlay: true
+                    nav: true
                 },
                 // breakpoint from 576 up
                 576: {
                     items: 3,
-                    autoPlay: true
+                    nav: true
                 },
                 // breakpoint from 768 up
                 768: {
-                    items: 4,
+                    items: 3,
                     nav: true
                 },
                 // breakpoint from 992 up
                 992: {
+                    items: 2,
+                    nav: true
+                },
+                1000: {
                     items: 3,
                     nav: true
                 }

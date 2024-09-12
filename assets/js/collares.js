@@ -1,8 +1,8 @@
-import { aretes } from './data.js'; // Ajusta la ruta según tu estructura de archivos
+import { collares } from './data.js'; // Ajusta la ruta según tu estructura de archivos
 
 const productsContainer = document.getElementById('products-container');
 
-aretes.forEach(arete => {
+collares.forEach(arete => {
     const productItem = document.createElement('div');
     productItem.className = 'col-6 col-sm-3 col-lg-2';
 

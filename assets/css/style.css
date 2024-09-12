@@ -1621,8 +1621,9 @@ address strong, address b {
 }
 
 #quickView .quick-view-content .product-thumbnail-wrap .owl-thumbs .owl-thumb-item {
-    height: 70px;
-    width: 70px;
+    height: 60px;
+    width: 60px;
+    
 }
 
 /*== Page Title Area Start ==*/
@@ -2408,6 +2409,8 @@ address strong, address b {
 .single-product-page-content .product-thumbnail-wrap .owl-thumbs {
     margin-top: 15px;
     text-align: center;
+
+    
 }
 
 .single-product-page-content .product-thumbnail-wrap .owl-thumbs .owl-thumb-item {
@@ -2417,22 +2420,27 @@ address strong, address b {
     padding: 0;
     height: 100px;
     width: 100px;
+    border-radius: 100px;
+    
 }
 
 @media only screen and (min-width: 320px) and (max-width: 575px), only screen and (min-width: 576px) and (max-width: 767px) {
     .single-product-page-content .product-thumbnail-wrap .owl-thumbs .owl-thumb-item {
         height: 50px;
         width: 50px;
+        border-radius: 8px;
     }
 }
 
 .single-product-page-content .product-thumbnail-wrap .owl-thumbs .owl-thumb-item.active {
     border: 2px solid #d82e2e;
+    border-radius: 8px;
 }
 
 .single-product-page-content .product-thumbnail-wrap .owl-thumbs .owl-thumb-item img {
     max-width: 100%;
     display: block;
+    border-radius: 5px;
 }
 
 .single-product-page-content .product-thumbnail-wrap .owl-nav button {
@@ -5278,3 +5286,21 @@ fieldset legend {
 
 
 
+.full-width-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* La imagen cubre todo el espacio del contenedor */
+}
+
+.single-gallery-item {
+    height: 100%; /* Asegura que el div padre también ocupe todo el espacio */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.product-thumbnail-wrap img.img-fluid{
+    border-radius: 12px;
+}
