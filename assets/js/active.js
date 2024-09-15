@@ -113,6 +113,7 @@
                 // breakpoint from 0 up
                 0: {
                     items: 2,
+                    margin: 25,
                     nav: true
                 },
                 // breakpoint from 576 up
@@ -122,7 +123,7 @@
                 },
                 // breakpoint from 768 up
                 768: {
-                    items: 3,
+                    items: 2,
                     nav: true
                 },
                 // breakpoint from 992 up

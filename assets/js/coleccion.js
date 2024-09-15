@@ -20,13 +20,24 @@ function generarColeccionHTML(arrayProductos) {
             carousel.innerHTML = ''; // Limpiar el contenedor antes de agregar nuevos productos
 
             arrayProductos.forEach(producto => {
+                // Determinar si el producto tiene 1 o 2 colores basados en las propiedades oro y plata
+                let textoColores = '1 color'; // Texto por defecto
+
+                if (producto.oro && producto.plata) {
+                    textoColores = '2 colores'; // Si ambos son true, tiene 2 colores
+                } else if (producto.oro || producto.plata) {
+                    textoColores = '1 color'; // Si uno de los dos es true, tiene 1 color
+                }
+
                 const productHTML = `
                     <div class="single-product-item text-center">
                         <figure class="product-thumb">
-                            <a href="single-product.html"><img src="${producto.imagen || 'default-image.jpg'}" alt="${producto.nombre}" class="img-fluid"></a>
+                            <a href="single-product.html?id=${producto.nombre.replace(/\s+/g, '-').toLowerCase()}"><img src="${producto.imagen || 'default-image.jpg'}" alt="${producto.nombre}" class="img-fluid"></a>
+                            <!-- Texto en la esquina superior derecha -->
+                            <div class="top-right-text">${textoColores}</div>
                         </figure>
                         <div class="product-details">
-                            <h2><a href="single-product.html">${producto.nombre}</a></h2>
+                            <h2><a href="single-product.html?id=${producto.nombre.replace(/\s+/g, '-').toLowerCase()}">${producto.nombre}</a></h2>
                             <div class="rating">
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
@@ -43,6 +54,7 @@ function generarColeccionHTML(arrayProductos) {
         }
     }
 }
+
 
 // Cargar productos aleatorios en la colección
 document.addEventListener('DOMContentLoaded', function() {

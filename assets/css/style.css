@@ -76,7 +76,6 @@ p {
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     font-weight: 700;
-    font-family: "Playfair Display";
     color: #202020;
 }
 
@@ -204,12 +203,109 @@ button:focus, button:active, button.btn:focus, button.btn:active {
     margin-top: -9px;
 }
 
+.ruby-container .colecciones .products-wrapper .row{
+    margin-left: 0px;
+}
+
+.ruby-container .colecciones .products-wrapper .owl-stage{
+    margin-left: -15px;
+}
+
+.ruby-container .colecciones .products-wrapper .section-title {
+    background-color: #f4f5f7; /* Color plomo */
+    border-radius: 8px; /* Radio del borde para redondear */
+    padding: 30px 30px 10px 20px;
+    display: flex;
+    flex-direction: column; 
+
+}
+
+
+
+.ruby-container .colecciones .products-wrapper .section-title h2 {
+    margin: 0; /* Elimina el margen por defecto del h2 */
+}
+
+.ruby-container .colecciones .products-wrapper .section-title a {
+    margin-left: auto; /* Empuja el enlace hacia el borde derecho */
+    color: #a4a4a4; /* Color del texto del enlace */
+    text-decoration: none; /* Quita el subrayado del enlace */
+    font-size: 16px; /* Tamaño del texto del enlace */
+    font-family: 'Questrial', sans-serif; /* Aplica la fuente Questrial */
+}
+
+.ruby-container .colecciones .products-wrapper .section-title a {
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.ruby-container .colecciones .products-wrapper .section-title a:hover {
+    color: red;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .ruby-container .colecciones .products-wrapper .section-title{
+        width: 0%;
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+
+    .ruby-container .colecciones .products-wrapper .section-title h2 {
+        font-size: 50px;
+        padding-top: 35px;
+        text-align: center;
+        margin: auto;
+        
+    }
+
+    .ruby-container .colecciones .products-wrapper .section-title a {
+        padding-top: 15px;
+        text-align: center;
+        margin: auto;
+        font-size: 25px;
+    }
+}
+
 @media only screen and (min-width: 320px) and (max-width: 575px) {
     .section-title h2 {
         font-size: 2.2rem;
         margin-top: -5px;
     }
+
+    
+
+
+    .ruby-container .colecciones .products-wrapper .section-title h2 {
+        padding: auto;
+        text-align: center;
+        margin: auto;
+        
+    }
+
+    .ruby-container .colecciones .products-wrapper .section-title a {
+        padding-top: 15px;
+        text-align: center;
+        margin: auto;
+        
+    }
+
 }
+
+
 
 .section-title p {
     font-style: italic;
@@ -2337,6 +2433,24 @@ address strong, address b {
 .products-wrapper.products-list-view .single-product-item a.btn-add-to-cart.btn-whislist, .products-wrapper.products-list-view .single-product-item a.btn-add-to-cart.btn-compare {
     display: inline-block;
 }
+
+/* Estilo del texto en la esquina superior derecha */
+.product-thumb .top-right-text {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #e8e8e8a1;
+    padding: 4px 10px;
+    border-radius: 7px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000;
+    z-index: 10; /* Asegura que esté por encima de la imagen */
+
+}
+
+
+
 
 @media only screen and (min-width: 320px) and (max-width: 575px) {
     .products-wrapper.products-list-view .single-product-item a.btn-add-to-cart {
@@ -5287,14 +5401,12 @@ fieldset legend {
 
 
 .full-width-img {
-    width: 100%;
-    height: 100%;
     object-fit: cover; /* La imagen cubre todo el espacio del contenedor */
 }
 
 .single-gallery-item {
-    height: 100%; /* Asegura que el div padre también ocupe todo el espacio */
-    width: 100%;
+    max-width: max-content;
+    max-height: max-content;
     display: flex;
     justify-content: center;
     align-items: center;

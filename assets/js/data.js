@@ -2,10 +2,10 @@ export const aretes = [
     {
         nombre: "Aretes Gota",
         precio: "$17.00",
-        imagen: "assets/img/aretes/7.png",
-        imagen2: "assets/img/new-product-1.jpg",
-        imagen3: "assets/img/new-product-1.jpg",
-        imagen4: "assets/img/new-product-1.jpg",
+        imagen: "assets/img/aretes/aretes-gota/ambas-1.png",
+        imagen2: "assets/img/aretes/aretes-gota/oro.png",
+        imagen3: "assets/img/aretes/aretes-gota/plata.png",
+        imagen4: "assets/img/aretes/aretes-gota/ambas-1.png",
         oro: true,
         plata: true,
         caracteristicas: [
@@ -23,7 +23,7 @@ export const aretes = [
         imagen2: "assets/img/new-product-1.jpg",
         imagen3: "assets/img/new-product-1.jpg",
         imagen4: "assets/img/new-product-1.jpg",
-        oro: false,
+        oro: true,
         plata: false,
         caracteristicas: [
             "Hierro",
@@ -235,32 +235,84 @@ export const collares = [
 
 export const pulseras = [
     {
-        nombre: "Pulsera 1",
-        precio: "$30.00",
-        imagen: "assets/img/new-product-1.jpg",
-        imagen2: "assets/img/new-product-1.jpg",
-        imagen3: "assets/img/new-product-1.jpg",
-        imagen4: "assets/img/new-product-1.jpg",
-        introduccion: "Pulsera versátil",
-        oro: true,
-        plata: false,
-        caracteristicas: ["Duradera"],
-        descripcion1: "Pulsera de oro duradera",
-        descripcion2: "Perfecta para el uso diario"
-    },
-    {
-        nombre: "Pulsera 2",
-        precio: "$32.00",
+        nombre: "Pulseras 1",
+        precio: "$18.00",
         imagen: "assets/img/new-product-2.jpg",
         imagen2: "assets/img/new-product-1.jpg",
         imagen3: "assets/img/new-product-1.jpg",
         imagen4: "assets/img/new-product-1.jpg",
-        introduccion: "Pulsera elegante",
-        oro: true,
-        plata: true,
-        caracteristicas: ["Diseño moderno"],
-        descripcion1: "Pulsera con diseño moderno",
-        descripcion2: "Para ocasiones especiales"
+        introduccion: "Pulseras de acero inoxidable a la moda, duraderas y elegantes accesorios unisex con diseño geométrico.",
+        oro: false,
+        plata: false,
+        caracteristicas: [
+            "Acero inoxidable",
+        ],
+        descripcion1: "Fabricadas con acero inoxidable de alta calidad, estas pulseras ofrecen una excelente resistencia al desgaste y la corrosión, lo que las convierte en un accesorio ideal para el uso diario. Su diseño geométrico aporta un toque moderno y elegante.",
+        descripcion2: "Con una longitud de 16 cm, estas pulseras unisex son cómodas de llevar y se adaptan a una amplia variedad de estilos. Perfectas para complementar tanto atuendos casuales como más formales."
+    },
+    {
+        nombre: "Pulseras 1",
+        precio: "$18.00",
+        imagen: "assets/img/new-product-2.jpg",
+        imagen2: "assets/img/new-product-1.jpg",
+        imagen3: "assets/img/new-product-1.jpg",
+        imagen4: "assets/img/new-product-1.jpg",
+        introduccion: "Pulseras de acero inoxidable a la moda, duraderas y elegantes accesorios unisex con diseño geométrico.",
+        oro: false,
+        plata: false,
+        caracteristicas: [
+            "Acero inoxidable",
+        ],
+        descripcion1: "Fabricadas con acero inoxidable de alta calidad, estas pulseras ofrecen una excelente resistencia al desgaste y la corrosión, lo que las convierte en un accesorio ideal para el uso diario. Su diseño geométrico aporta un toque moderno y elegante.",
+        descripcion2: "Con una longitud de 16 cm, estas pulseras unisex son cómodas de llevar y se adaptan a una amplia variedad de estilos. Perfectas para complementar tanto atuendos casuales como más formales."
+    },
+    {
+        nombre: "Pulseras 1",
+        precio: "$18.00",
+        imagen: "assets/img/new-product-2.jpg",
+        imagen2: "assets/img/new-product-1.jpg",
+        imagen3: "assets/img/new-product-1.jpg",
+        imagen4: "assets/img/new-product-1.jpg",
+        introduccion: "Pulseras de acero inoxidable a la moda, duraderas y elegantes accesorios unisex con diseño geométrico.",
+        oro: false,
+        plata: false,
+        caracteristicas: [
+            "Acero inoxidable",
+        ],
+        descripcion1: "Fabricadas con acero inoxidable de alta calidad, estas pulseras ofrecen una excelente resistencia al desgaste y la corrosión, lo que las convierte en un accesorio ideal para el uso diario. Su diseño geométrico aporta un toque moderno y elegante.",
+        descripcion2: "Con una longitud de 16 cm, estas pulseras unisex son cómodas de llevar y se adaptan a una amplia variedad de estilos. Perfectas para complementar tanto atuendos casuales como más formales."
+    },
+    {
+        nombre: "Pulseras 1",
+        precio: "$18.00",
+        imagen: "assets/img/new-product-2.jpg",
+        imagen2: "assets/img/new-product-1.jpg",
+        imagen3: "assets/img/new-product-1.jpg",
+        imagen4: "assets/img/new-product-1.jpg",
+        introduccion: "Pulseras de acero inoxidable a la moda, duraderas y elegantes accesorios unisex con diseño geométrico.",
+        oro: false,
+        plata: false,
+        caracteristicas: [
+            "Acero inoxidable",
+        ],
+        descripcion1: "Fabricadas con acero inoxidable de alta calidad, estas pulseras ofrecen una excelente resistencia al desgaste y la corrosión, lo que las convierte en un accesorio ideal para el uso diario. Su diseño geométrico aporta un toque moderno y elegante.",
+        descripcion2: "Con una longitud de 16 cm, estas pulseras unisex son cómodas de llevar y se adaptan a una amplia variedad de estilos. Perfectas para complementar tanto atuendos casuales como más formales."
+    },
+    {
+        nombre: "Pulseras 1",
+        precio: "$18.00",
+        imagen: "assets/img/new-product-2.jpg",
+        imagen2: "assets/img/new-product-1.jpg",
+        imagen3: "assets/img/new-product-1.jpg",
+        imagen4: "assets/img/new-product-1.jpg",
+        introduccion: "Pulseras de acero inoxidable a la moda, duraderas y elegantes accesorios unisex con diseño geométrico.",
+        oro: false,
+        plata: false,
+        caracteristicas: [
+            "Acero inoxidable",
+        ],
+        descripcion1: "Fabricadas con acero inoxidable de alta calidad, estas pulseras ofrecen una excelente resistencia al desgaste y la corrosión, lo que las convierte en un accesorio ideal para el uso diario. Su diseño geométrico aporta un toque moderno y elegante.",
+        descripcion2: "Con una longitud de 16 cm, estas pulseras unisex son cómodas de llevar y se adaptan a una amplia variedad de estilos. Perfectas para complementar tanto atuendos casuales como más formales."
     },
 ];
 

@@ -11,17 +11,27 @@ function seleccionarAleatorios(array, cantidad) {
     return resultados;
 }
 
-// Función para generar el HTML de cada producto
 function generarProductosHTML(arrayProductos) {
     const productosContainer = document.getElementById('productos-carousel');
     if (productosContainer) {
         productosContainer.innerHTML = ''; // Limpiar el contenedor antes de agregar nuevos productos
 
         arrayProductos.forEach(producto => {
+            // Determinar si el producto tiene 1 o 2 colores basados en las propiedades oro y plata
+            let textoColores = '1 color'; // Texto por defecto
+
+            if (producto.oro && producto.plata) {
+                textoColores = '2 colores'; // Si ambos son true, tiene 2 colores
+            } else if (producto.oro || producto.plata) {
+                textoColores = '1 color'; // Si uno de los dos es true, tiene 1 color
+            }
+
             const productHTML = `
                 <div class="single-product-item text-center">
                     <figure class="product-thumb">
                         <a href="single-product.html?id=${producto.nombre.replace(/\s+/g, '-').toLowerCase()}"><img src="${producto.imagen || 'default-image.jpg'}" alt="${producto.nombre}" class="img-fluid"></a>
+                        <!-- Texto en la esquina superior derecha -->
+                        <div class="top-right-text">${textoColores}</div>
                     </figure>
                     <div class="product-details">
                         <span class="rating">
@@ -41,6 +51,8 @@ function generarProductosHTML(arrayProductos) {
     }
 }
 
+
+
 // Función para obtener los parámetros de la URL
 function getQueryParams() {
     const query = window.location.search.substring(1);
@@ -58,6 +70,10 @@ if (document.getElementById('productos-carousel')) {
     generarProductosHTML(productosAleatorios);
 }
 
+
+
+
+
 // Mostrar detalles del producto en la página de detalles
 document.addEventListener('DOMContentLoaded', function() {
     const params = getQueryParams();
@@ -66,6 +82,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const producto = todosLosProductos.find(p => p.nombre.toLowerCase() === productoNombre.toLowerCase());
 
     if (producto) {
+        // Actualizar detalles del producto
         document.getElementById('product-name').textContent = producto.nombre;
         document.getElementById('product-name-detailed').textContent = producto.nombre;
         document.getElementById('product-price').textContent = producto.precio;
@@ -96,6 +113,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     <span class="color-name">Oro</span>
                 </div>
             `;
+            oroItem.dataset.index = 1; // Índice para la segunda imagen (index 1)
+            oroItem.addEventListener('click', () => scrollToImage(1));
             colorsContainer.appendChild(oroItem);
         }
         
@@ -108,6 +127,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     <span class="color-name">Plata</span>
                 </div>
             `;
+            plataItem.dataset.index = 2; // Índice para la tercera imagen (index 2)
+            plataItem.addEventListener('click', () => scrollToImage(2));
             colorsContainer.appendChild(plataItem);
         }
 
@@ -119,16 +140,29 @@ document.addEventListener('DOMContentLoaded', function() {
         // Actualizar el carrusel de imágenes
         const carousel = document.getElementById('product-carousel');
         const images = [producto.imagen, producto.imagen2, producto.imagen3, producto.imagen4];
+        carousel.innerHTML = ''; // Limpiar imágenes anteriores
         images.forEach((imgSrc) => {
             if (imgSrc) {
-                const imgHTML = `<div class="single-thumb-item"><a href="single-product.html"><img class="img-fluid" src="${imgSrc}" alt="Product"/></a></div>`;
+                const imgHTML = `<div class="single-thumb-item"><a><img class="img-fluid" src="${imgSrc}" alt="Product"/></a></div>`;
                 carousel.innerHTML += imgHTML;
             }
         });
+
+        // Función para desplazar el carrusel a la imagen correspondiente
+        function scrollToImage(index) {
+            const carouselItems = carousel.querySelectorAll('.single-thumb-item');
+            if (index >= 0 && index < carouselItems.length) {
+                const itemToScroll = carouselItems[index];
+                // Dependiendo de la biblioteca que uses, el método para desplazar el carrusel puede variar
+                // Ejemplo con Owl Carousel:
+                $(carousel).trigger('to.owl.carousel', [index, 300]);
+            }
+        }
     } else {
         console.error('Producto no encontrado');
     }
 });
+
 
 
 
