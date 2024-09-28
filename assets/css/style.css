@@ -164,17 +164,11 @@ button:focus, button:active, button.btn:focus, button.btn:active {
     }
 }
 
-.section-title {
-    text-align: left;
-    position: relative;
-    margin-bottom: 54px;
-}
+
 
 .section-title h2 {
     font-size: 3.6rem;
     line-height: 1.2;
-    margin-bottom: 17px;
-    margin-top: -9px;
 }
 
 .section-title-2 {
@@ -217,6 +211,7 @@ button:focus, button:active, button.btn:focus, button.btn:active {
     padding: 30px 30px 10px 20px;
     display: flex;
     flex-direction: column; 
+    padding-bottom: 40px;
 
 }
 
@@ -254,53 +249,61 @@ button:focus, button:active, button.btn:focus, button.btn:active {
 }
 
 
+.section-title .ver-mas{
+    margin-top: -30px;
+}
+
+
+
+
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .ruby-container .colecciones .products-wrapper .section-title{
-        width: 0%;
+        text-align: left;
+        padding-top: 20px;
+        padding-bottom: 20px;
         margin-top: 30px;
+    }
+
+    .ruby-container .colecciones .products-wrapper .section-title h2{
+        margin-left: -80px;
+    }
+
+    .ruby-container .colecciones .products-wrapper .section-title .ver-mas{
+        text-align: end;
+        margin-top: -30px;
     }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-
-
     .ruby-container .colecciones .products-wrapper .section-title h2 {
-        font-size: 50px;
-        padding-top: 35px;
+        font-size: 35px;
         text-align: center;
-        margin: auto;
-        
+        margin: auto; 
     }
 
     .ruby-container .colecciones .products-wrapper .section-title a {
-        padding-top: 15px;
         text-align: center;
         margin: auto;
-        font-size: 25px;
+        font-size: 20px;
+        margin-top: -25px;
     }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 575px) {
     .section-title h2 {
-        font-size: 2.2rem;
-        margin-top: -5px;
+        font-size: 2.4rem;
     }
-
-    
-
-
     .ruby-container .colecciones .products-wrapper .section-title h2 {
         padding: auto;
         text-align: center;
         margin: auto;
         
     }
-
     .ruby-container .colecciones .products-wrapper .section-title a {
-        padding-top: 15px;
         text-align: center;
         margin: auto;
-        
+        margin-top: -20px;
     }
 
 }
@@ -5416,3 +5419,4 @@ fieldset legend {
 .product-thumbnail-wrap img.img-fluid{
     border-radius: 12px;
 }
+

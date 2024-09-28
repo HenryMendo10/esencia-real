@@ -19,7 +19,7 @@ export const aretes = [
     {
         nombre: "Aretes Nudo",
         precio: "$20.00",
-        imagen: "assets/img/aretes/6.png",
+        imagen: "assets/img/aretes/21.png",
         imagen2: "assets/img/new-product-1.jpg",
         imagen3: "assets/img/new-product-1.jpg",
         imagen4: "assets/img/new-product-1.jpg",
@@ -36,7 +36,7 @@ export const aretes = [
     {
         nombre: "Aretes U",
         precio: "$22.00",
-        imagen: "assets/img/aretes/5.png",
+        imagen: "assets/img/aretes/20.png",
         imagen2: "assets/img/new-product-1.jpg",
         imagen3: "assets/img/new-product-1.jpg",
         imagen4: "assets/img/new-product-1.jpg",
