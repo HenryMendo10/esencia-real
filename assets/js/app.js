@@ -33,14 +33,16 @@ function generarProductosHTML(arrayProductos) {
                         <!-- Texto en la esquina superior derecha -->
                         <div class="top-right-text">${textoColores}</div>
                     </figure>
+                     
                     <div class="product-details">
-                        <span class="rating">
+                    <!-- <span class="rating">
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star-half"></i>
                             <i class="fa fa-star-o"></i>
-                        </span>
+                        </span>-->
+
                         <h2><a href="single-product.html?id=${producto.nombre.replace(/\s+/g, '-').toLowerCase()}">${producto.nombre}</a></h2>
                         <span class="price">${producto.precio}</span>
                     </div>
