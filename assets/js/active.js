@@ -13,7 +13,7 @@
             dots: true,
             smartSpeed: 1000,
             autoplay: true,
-            autoplayTimeout: 3000,
+            autoplayTimeout: 5500,
             autoplayHoverPause: true
         });
 
