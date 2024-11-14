@@ -844,14 +844,14 @@ address strong, address b {
 }
 
 #header-area .header-right-meta {
-    margin-right: 25px;
+    margin-right: 5px;
     position: relative;
 }
 
 #header-area .header-right-meta ul li {
     display: inline-block;
     position: relative;
-    margin-left: 20px;
+    margin-left: 12px;
 }
 
 #header-area .header-right-meta ul li:first-child {
@@ -5358,7 +5358,7 @@ fieldset legend {
 
 /* Footer Styles */
 #footer-area {
-    background-color: #000;
+    background-color: var(--color-primario);
     color: #FFF;
     padding: 40px 60px 80px 25px;
 }
@@ -5539,10 +5539,16 @@ fieldset legend {
 
 
 .ruby-container .row .logo-area img{
-    width: 100px;
+    width: 110px;
     padding-bottom: 0px;
 }
 
+
+@media (max-width: 1024px) {
+    .ruby-container .row .logo-area img{
+        width: 150px;
+    }
+}
 
 
 /*--------------------------------------------------------------

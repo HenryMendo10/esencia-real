@@ -2,10 +2,9 @@ export const aretes = [
     {
         nombre: "Aretes Aura",
         precio: "S/.15.00",
-        imagen: "assets/img/aretes/aretes-gota/ambas-1.png",
-        imagen2: "assets/img/aretes/aretes-gota/oro.png",
-        imagen3: "assets/img/aretes/aretes-gota/plata.png",
-        imagen4: "assets/img/aretes/aretes-gota/ambas-1.png",
+        imagen: "assets/img/aretes/1.arete-aura/1.png",
+        imagen2: "6assets/img/aretes/1.arete-aura/2.png",
+        imagen3: "assets/img/aretes/1.arete-aura/3.png",
         oro: true,
         plata: true,
         "caracteristicas": [
@@ -38,10 +37,10 @@ export const aretes = [
     {
         nombre: "Aretes Lia",
         precio: "S/.18.00",
-        imagen: "assets/img/aretes/21.png",
-        imagen2: "assets/img/new-product-1.jpg",
-        imagen3: "assets/img/new-product-1.jpg",
-        imagen4: "assets/img/new-product-1.jpg",
+        imagen: "assets/img/aretes/3.argolla-lia/1.png",
+        imagen2: "assets/img/aretes/3.argolla-lia/2.png",
+        imagen3: "assets/img/aretes/3.argolla-lia/3.png",
+        imagen4: "assets/img/aretes/3.argolla-lia/4.png",
         oro: true,
         plata: false,
         "caracteristicas": [
@@ -56,10 +55,8 @@ export const aretes = [
     {
         nombre: "Aretes Siara",
         precio: "S/.18.00",
-        imagen: "assets/img/aretes/4.png",
-        imagen2: "assets/img/new-product-1.jpg",
-        imagen3: "assets/img/new-product-1.jpg",
-        imagen4: "assets/img/new-product-1.jpg",
+        imagen: "assets/img/aretes/4.arete-siara/1.png",
+        imagen2: "assets/img/aretes/4.arete-siara/1.png",
         oro: true,
         plata: false,
         "caracteristicas": [
@@ -74,10 +71,8 @@ export const aretes = [
     {
         nombre: "Argolla Zara",
         precio: "S/.20.00",
-        imagen: "assets/img/new-product-1.jpg",
-        imagen2: "assets/img/new-product-1.jpg",
-        imagen3: "assets/img/new-product-1.jpg",
-        imagen4: "assets/img/new-product-1.jpg",
+        imagen: "assets/img/aretes/5.argolla-zara/2.png",
+        imagen2: "assets/img/aretes/5.argolla-zara/1.png",
         oro: true,
         plata: false,
         caracteristicas: [
@@ -89,12 +84,11 @@ export const aretes = [
     {
         nombre: "Argolla Mia",
         precio: "S/.8.00",
-        imagen: "assets/img/new-product-1.jpg",
-        imagen2: "assets/img/new-product-1.jpg",
-        imagen3: "assets/img/new-product-1.jpg",
-        imagen4: "assets/img/new-product-1.jpg",
-        oro: true,
-        plata: false,
+        imagen: "assets/img/aretes/6.argolla-mia/1.png",
+        imagen2: "assets/img/aretes/6.argolla-mia/2.png",
+        imagen3: "assets/img/aretes/6.argolla-mia/3.png",
+        oro: false,
+        plata: true,
         "caracteristicas": [
             "Acero inoxidable",
             "Chapado en oro de 18 quilates",
@@ -413,8 +407,6 @@ export const pulseras = [
     },
 
 ];
-
-
 
 
 export const coleccion = [
