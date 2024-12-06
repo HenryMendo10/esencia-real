@@ -130,7 +130,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 </div>
             `;
             plataItem.dataset.index = 2; // Índice para la tercera imagen (index 2)
-            plataItem.addEventListener('click', () => scrollToImage(2));
+            plataItem.addEventListener('click', () => scrollToImage(3));
             colorsContainer.appendChild(plataItem);
         }
 
@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Actualizar el carrusel de imágenes
         const carousel = document.getElementById('product-carousel');
-        const images = [producto.imagen, producto.imagen2, producto.imagen3, producto.imagen4];
+        const images = [producto.imagen, producto.imagen2, producto.imagen3, producto.imagen4, producto.imagen5];
         carousel.innerHTML = ''; // Limpiar imágenes anteriores
         images.forEach((imgSrc) => {
             if (imgSrc) {
