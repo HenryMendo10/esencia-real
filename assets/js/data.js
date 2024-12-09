@@ -19,7 +19,7 @@ export const aretes = [
     {
         nombre: "Aretes Nara",
         precio: "S/.17.00",
-        imagen: "assets/img/aretes/20.png",
+        imagen: "assets/img/aretes/2.arete-nara/1.png",
         imagen2: "assets/img/new-product-1.jpg",
         imagen3: "assets/img/new-product-1.jpg",
         imagen4: "assets/img/new-product-1.jpg",
@@ -39,8 +39,6 @@ export const aretes = [
         precio: "S/.18.00",
         imagen: "assets/img/aretes/3.argolla-lia/1.png",
         imagen2: "assets/img/aretes/3.argolla-lia/2.png",
-        imagen3: "assets/img/aretes/3.argolla-lia/3.png",
-        imagen4: "assets/img/aretes/3.argolla-lia/4.png",
         oro: true,
         plata: false,
         "caracteristicas": [
@@ -56,7 +54,8 @@ export const aretes = [
         nombre: "Aretes Siara",
         precio: "S/.18.00",
         imagen: "assets/img/aretes/4.arete-siara/1.png",
-        imagen2: "assets/img/aretes/4.arete-siara/1.png",
+        imagen2: "assets/img/aretes/4.arete-siara/2.png",
+        imagen3: "assets/img/aretes/4.arete-siara/3.png",
         oro: true,
         plata: false,
         "caracteristicas": [
@@ -71,8 +70,9 @@ export const aretes = [
     {
         nombre: "Argolla Zara",
         precio: "S/.20.00",
-        imagen: "assets/img/aretes/5.argolla-zara/2.png",
-        imagen2: "assets/img/aretes/5.argolla-zara/1.png",
+        imagen: "assets/img/aretes/5.argolla-zara/1.png",
+        imagen2: "assets/img/aretes/5.argolla-zara/2.png",
+        imagen3: "assets/img/aretes/5.argolla-zara/3.png",
         oro: true,
         plata: false,
         caracteristicas: [
@@ -98,7 +98,160 @@ export const aretes = [
         "descripcion1": "Este accesorio está elaborado con acero inoxidable de alta calidad y cuenta con un chapado en oro de 18 quilates que asegura un acabado duradero y elegante. Su resistencia al agua lo convierte en un producto ideal para uso diario, manteniendo su brillo en cualquier situación. Además, es hipoalergénico, por lo que es seguro para todo tipo de piel.",
         "descripcion2": "Con un ancho de 10 cm y un grosor de 0.2 cm, este diseño equilibra estilo y funcionalidad, ofreciendo un complemento cómodo y sofisticado para cualquier ocasión."
     },
-    
+    {
+        nombre: "Arete Aitana",
+        precio: "S/.0.00",
+        imagen: "assets/img/aretes/arete-aitana/1.png",
+        imagen2: "assets/img/aretes/arete-aitana/2.png",
+        imagen3: "assets/img/aretes/arete-aitana/3.png",
+        oro: true,
+        plata: false,
+        "caracteristicas": [
+            "Acero inoxidable",
+            "Chapado en oro de 18 quilates",
+            "Hipoalergénico",
+            "Waterproof"
+        ],
+        "descripcion1": "",
+        "descripcion2": ""
+    },
+    {
+        nombre: "Arete Ambar",
+        precio: "S/.0.00",
+        imagen: "assets/img/aretes/arete-ambar/1.png",
+        imagen2: "assets/img/aretes/arete-ambar/2.png",
+        imagen3: "assets/img/aretes/arete-ambar/3.png",
+        oro: true,
+        plata: false,
+        "caracteristicas": [
+            "Acero inoxidable",
+            "Chapado en oro de 18 quilates",
+            "Hipoalergénico",
+            "Waterproof"
+        ],
+        "descripcion1": "",
+        "descripcion2": ""
+    },
+    {
+        nombre: "Arete Ginebra",
+        precio: "S/.0.00",
+        imagen: "assets/img/aretes/arete-ginebra/1.png",
+        imagen2: "assets/img/aretes/arete-ginebra/2.png",
+        imagen3: "assets/img/aretes/arete-ginebra/3.png",
+        oro: true,
+        plata: false,
+        "caracteristicas": [
+            "Acero inoxidable",
+            "Chapado en oro de 18 quilates",
+            "Hipoalergénico",
+            "Waterproof"
+        ],
+        "descripcion1": "",
+        "descripcion2": ""
+    },
+    {
+        nombre: "Arete Larisa",
+        precio: "S/.0.00",
+        imagen: "assets/img/aretes/arete-larisa/1.png",
+        imagen2: "assets/img/aretes/arete-larisa/2.png",
+        imagen3: "assets/img/aretes/arete-larisa/3.png",
+        oro: true,
+        plata: false,
+        "caracteristicas": [
+            "Acero inoxidable",
+            "Chapado en oro de 18 quilates",
+            "Hipoalergénico",
+            "Waterproof"
+        ],
+        "descripcion1": "",
+        "descripcion2": ""
+    },
+    {
+        nombre: "Arete Lily",
+        precio: "S/.0.00",
+        imagen: "assets/img/aretes/arete-lily/1.png",
+        imagen2: "assets/img/aretes/arete-lily/2.png",
+        imagen3: "assets/img/aretes/arete-lily/3.png",
+        oro: true,
+        plata: true,
+        "caracteristicas": [
+            "Acero inoxidable",
+            "Chapado en oro de 18 quilates",
+            "Hipoalergénico",
+            "Waterproof"
+        ],
+        "descripcion1": "",
+        "descripcion2": ""
+    },
+    {
+        nombre: "Arete Sienna",
+        precio: "S/.0.00",
+        imagen: "assets/img/aretes/arete-sienna/1.png",
+        imagen2: "assets/img/aretes/arete-sienna/2.png",
+        oro: true,
+        plata: false,
+        "caracteristicas": [
+            "Acero inoxidable",
+            "Chapado en oro de 18 quilates",
+            "Hipoalergénico",
+            "Waterproof"
+        ],
+        "descripcion1": "",
+        "descripcion2": ""
+    },
+    {
+        nombre: "Arete Sofía",
+        precio: "S/.0.00",
+        imagen: "assets/img/aretes/arete-sofia/1.png",
+        imagen2: "assets/img/aretes/arete-sofia/2.png",
+        imagen3: "assets/img/aretes/arete-sofia/3.png",
+        oro: true,
+        plata: false,
+        "caracteristicas": [
+            "Acero inoxidable",
+            "Chapado en oro de 18 quilates",
+            "Hipoalergénico",
+            "Waterproof"
+        ],
+        "descripcion1": "",
+        "descripcion2": ""
+    },
+    {
+        nombre: "Argolla Alba",
+        precio: "S/.0.00",
+        imagen: "assets/img/aretes/argolla-alba/1.png",
+        imagen2: "assets/img/aretes/argolla-alba/2.png",
+        imagen3: "assets/img/aretes/argolla-alba/3.png",
+        imagen4: "assets/img/aretes/argolla-alba/3.png",
+        oro: true,
+        plata: false,
+        "caracteristicas": [
+            "Acero inoxidable",
+            "Chapado en oro de 18 quilates",
+            "Hipoalergénico",
+            "Waterproof"
+        ],
+        "descripcion1": "",
+        "descripcion2": ""
+    },
+    {
+        nombre: "Argolla Mara",
+        precio: "S/.0.00",
+        imagen: "assets/img/aretes/argolla-mara/1.png",
+        imagen2: "assets/img/aretes/argolla-mara/2.png",
+        imagen3: "assets/img/aretes/argolla-mara/3.png",
+        imagen4: "assets/img/aretes/argolla-mara/3.png",
+        oro: true,
+        plata: false,
+        "caracteristicas": [
+            "Acero inoxidable",
+            "Chapado en oro de 18 quilates",
+            "Hipoalergénico",
+            "Waterproof"
+        ],
+        "descripcion1": "",
+        "descripcion2": ""
+    },
 ];
 
 
