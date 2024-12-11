@@ -26,13 +26,6 @@ aretes.forEach(arete => {
             </figure>
             <div class="product-details">
                 <h2><a href="single-product.html?id=${arete.nombre.replace(/\s+/g, '-').toLowerCase()}">${arete.nombre}</a></h2>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half"></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
                 <span class="price">${arete.precio}</span>
             </div>
         </div>

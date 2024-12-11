@@ -1500,7 +1500,7 @@ address strong, address b {
 }
 
 .slicknav_menu .slicknav_nav {
-    background-color: #202020;
+    background-color: var(--color-primario);
     left: 0;
     position: absolute;
     padding: 5px 4%;
@@ -1902,6 +1902,13 @@ address strong, address b {
 #banner-area #banner-carousel .single-carousel-wrap.home_6_slide_2 {
     background-image: url("../img/banner/BANNER.png");
 }
+
+@media only screen and (max-width: 991px) {
+    #banner-area #banner-carousel .single-carousel-wrap.home_6_slide_2 {
+        background-image: url("../img/banner/BANNER (1).png");
+    }
+}
+
 
 #banner-area .owl-dots {
     position: absolute;
@@ -5605,3 +5612,64 @@ fieldset legend {
     height: 100%;
     border: 0;
 }
+
+
+
+
+ .accordion-container {
+    margin: 1rem auto;
+    max-width: 70rem;
+    padding: 15px;
+  }
+  
+ .accordion-container .accordion {
+    margin: 1rem 0;
+    background-color: #929292;
+    border-radius: .5rem;
+  }
+  
+ .accordion-container .accordion.active .accordion-heading i {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  
+ .accordion-container .accordion.active .accordion-content {
+    display: block;
+  }
+  
+ .accordion-container .accordion .accordion-heading {
+    padding: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 1rem;
+    cursor: pointer;
+  }
+  
+ .accordion-container .accordion .accordion-heading h3 {
+    font-size: 2.2rem;
+    color: white;
+  }
+  
+ .accordion-container .accordion .accordion-heading i {
+    font-size: 2rem;
+    -webkit-transition: .2s linear;
+    transition: .2s linear;
+  }
+  
+ .accordion-container .accordion .accordion-content {
+    padding: 2rem;
+    padding-top: 0;
+    line-height: 1.4;
+    font-size: 1.7rem;
+    display: none;
+    -webkit-animation: fadeUp .2s linear backwards;
+            animation: fadeUp .2s linear backwards;
+            color: white;
+  }

@@ -351,4 +351,10 @@
     jQuery(window).on('load', function () {
 
     }); //window load End
+
+    document.querySelectorAll('.accordion-container .accordion').forEach(accordion =>{
+        accordion.onclick = () =>{
+            accordion.classList.toggle('active');
+        }
+    })
 }(jQuery));

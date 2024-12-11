@@ -38,13 +38,6 @@ function generarColeccionHTML(arrayProductos) {
                         </figure>
                         <div class="product-details">
                             <h2><a href="single-product.html?id=${producto.nombre.replace(/\s+/g, '-').toLowerCase()}">${producto.nombre}</a></h2>
-                            <!--<div class="rating">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star-half"></i>
-                                <i class="fa fa-star-o"></i>
-                            </div>-->
                             <span class="price">${producto.precio}</span>
                         </div>
                     </div>
@@ -60,4 +53,41 @@ function generarColeccionHTML(arrayProductos) {
 document.addEventListener('DOMContentLoaded', function() {
     const productosAleatorios = seleccionarAleatorios(coleccion, 5);
     generarColeccionHTML(productosAleatorios);
+});
+
+
+
+const productsContainer = document.getElementById('products-container');
+
+coleccion.forEach(set => {
+    const productItem = document.createElement('div');
+    productItem.className = 'col-6 col-sm-3 col-lg-2';
+
+    // Lógica para detectar colores (oro y plata)
+    let textoColores = '1 color'; // Texto por defecto
+
+    if (set.oro && set.plata) {
+        textoColores = '2 colores'; // Si ambos son true, tiene 2 colores
+    } else if (set.oro || set.plata) {
+        textoColores = '1 color'; // Si uno de los dos es true, tiene 1 color
+    }
+
+    const productHTML = `
+        <div class="single-product-item text-center">
+            <figure class="product-thumb">
+                <a href="single-product.html?id=${set.nombre.replace(/\s+/g, '-').toLowerCase()}">
+                    <img src="${set.imagen || 'default-image.jpg'}" alt="${set.nombre}" class="img-fluid">
+                </a>
+                <!-- Texto en la esquina superior derecha para colores -->
+                <div class="top-right-text">${textoColores}</div>
+            </figure>
+            <div class="product-details">
+                <h2><a href="single-product.html?id=${set.nombre.replace(/\s+/g, '-').toLowerCase()}">${set.nombre}</a></h2>
+                <span class="price">${set.precio}</span>
+            </div>
+        </div>
+    `;
+
+    productItem.innerHTML = productHTML;
+    productsContainer.appendChild(productItem);
 });
