@@ -113,18 +113,18 @@ button:focus, button:active, button.btn:focus, button.btn:active {
 }
 
 .p-9 {
-    padding: 90px 0;
+    padding: 10px 0;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 575px), only screen and (min-width: 576px) and (max-width: 767px) {
     .p-9 {
-        padding: 45px 0;
+        padding: 15px 0;
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .p-9 {
-        padding: 60px 0;
+        padding: 10px 0;
     }
 }
 
@@ -2194,13 +2194,18 @@ address strong, address b {
 /*== New Collection Area End ==*/
 /*== Products Style Start ==*/
 .products-wrapper .single-product-item {
-    -webkit-transition: all 0.4s ease-out;
-    -moz-transition: all 0.4s ease-out;
-    -o-transition: all 0.4s ease-out;
-    transition: all 0.4s ease-out;
+    -webkit-transition: transform 0.4s ease-out; /* Transición para el efecto de hover */
+    -moz-transition: transform 0.4s ease-out;
+    -o-transition: transform 0.4s ease-out;
+    transition: transform 0.4s ease-out;
     position: relative;
     overflow: hidden;
 }
+
+.products-wrapper .single-product-item:hover {
+    transform: translateY(-10px); /* Mueve el item hacia arriba 5 píxeles */
+}
+
 
 .products-wrapper .single-product-item .product-thumb img {
     width: 100%;
@@ -5321,6 +5326,11 @@ fieldset legend {
     margin-bottom: 5px;
 }
 
+
+.callto-thumb img{
+    width: 49px;
+}
+}
 @media only screen and (min-width: 320px) and (max-width: 575px), only screen and (min-width: 576px) and (max-width: 767px) {
     .single-callto-action h2 {
         font-size: 1.3rem;

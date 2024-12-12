@@ -431,6 +431,23 @@ export const collares = [
 
 export const pulseras = [
     {
+        nombre: "FLOR",
+        precio: "S/.00.00",
+        imagen: "assets/img/pulseras/FLORDORADA/1.png",
+        imagen2: "assets/img/pulseras/FLORDORADA/2.png",
+        imagen3: "assets/img/pulseras/FLORDORADA/3.png",
+        oro: true,
+        plata: false,
+        "caracteristicas": [
+            "Acero inoxidable",
+            "Chapado en oro de 18 quilates",
+            "Waterproof",
+            "Hipoalergénico"
+        ],
+        "descripcion1": "",
+        "descripcion2": ""
+    },
+    {
         nombre: "Pulsera Cayetana",
         precio: "S/.17.00",
         imagen: "assets/img/pulseras/1CAYETANA/1.png",
