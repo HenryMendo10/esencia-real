@@ -72,13 +72,12 @@
                             </li>
                             <li class="dropdown-show"><a href="#">Información</a>
                                 <ul class="dropdown-nav">
-                                    <li><a href="#terminos.html">Términos y condiciones</a></li>
-                                    <li><a href="#reclamaciones.html">Libro de reclamaciones</a></li>
-                                    <li><a href="#envios">Envíos y entregas</a></li>
-                                    <li><a href="#preguntas">Preguntas frecuentes</a></li>
+                                    <li><a href="terminos.html">Términos y condiciones</a></li>
+                                    <li><a href="reclamaciones.html">Libro de reclamaciones</a></li>
+                                    <li><a href="envios">Envíos y entregas</a></li>
+                                    <li><a href="preguntas">Preguntas frecuentes</a></li>
                                 </ul>
                             </li>
-                            <li><a href="contact.html">Contacto</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -130,11 +129,7 @@
         <div class="row">
             <div class="col-12 text-center">
                 <div class="page-title-content">
-                    <h1>Contact Us</h1>
-                    <ul class="breadcrumb">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="login-register.html" class="active">Contact</a></li>
-                    </ul>
+                    <h1>Contáctanos</h1>
                 </div>
             </div>
         </div>
@@ -143,87 +138,23 @@
 <!--== Page Title Area End ==-->
 
 <!--== Page Content Wrapper Start ==-->
-<div id="page-content-wrapper" class="p-9">
+<div id="page-content-wrapper" class="">
     <div class="container">
-        <div class="row">
-            <!-- Contact Page Content Start -->
-            <div class="col-lg-12">
-                <!-- Contact Method Start -->
-                <div class="contact-method-wrap">
-                    <div class="row">
-                        <!-- Single Method Start -->
-                        <div class="col-lg-3 col-sm-6 text-center">
-                            <div class="contact-method-item">
-                                <span class="method-icon"><i class="fa fa-map-marker"></i></span>
-                                <div class="method-info">
-                                    <h3>Street Address</h3>
-                                    <p>Address : No 40 Baria Sreet 133/2 <br> NewYork City, NY, United States.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Single Method End -->
-
-                        <!-- Single Method Start -->
-                        <div class="col-lg-3 col-sm-6 text-center">
-                            <div class="contact-method-item">
-                                <span class="method-icon"><i class="fa fa-phone"></i></span>
-                                <div class="method-info">
-                                    <h3>Phone Number</h3>
-                                    <a href="tel:0(1234)56789012">0(1234) 567 89012</a>
-                                    <a href="tel:0(1234)56789012">0(1323) 466 89012</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Single Method End -->
-
-                        <!-- Single Method Start -->
-                        <div class="col-lg-3 col-sm-6 text-center">
-                            <div class="contact-method-item">
-                                <span class="method-icon"><i class="fa fa-envelope-open-o"></i></span>
-                                <div class="method-info">
-                                    <h3>Number Fax</h3>
-                                    <p>+1 323 555 1234 <br> +1 267 555 12342</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Single Method End -->
-
-                        <!-- Single Method Start -->
-                        <div class="col-lg-3 col-sm-6 text-center">
-                            <div class="contact-method-item">
-                                <span class="method-icon"><i class="fa fa-envelope"></i></span>
-                                <div class="method-info">
-                                    <h3>Email Address</h3>
-                                    <a href="mailto:your@email.here">your@email.here</a>
-                                    <a href="mailto:your@email.here">your@email.here</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Single Method End -->
-                    </div>
-                </div>
-                <!-- Contact Method End -->
-            </div>
-            <!-- Contact Page Content End -->
-        </div>
-
         <div class="row">
             <!-- Contact Form Start -->
             <div class="col-lg-9 m-auto">
                 <div class="contact-form-wrap">
-                    <h2>Request a Quote</h2>
-
                     <form id="contact-form" action="https://d29u17ylf1ylz9.cloudfront.net/ruby-v2/ruby/assets/php/mail.php" method="post">
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="single-input-item">
-                                    <input type="text" name="first_name" placeholder="First Name *" required/>
+                                    <input type="text" name="first_name" placeholder="Nombre" required/>
                                 </div>
                             </div>
 
                             <div class="col-lg-6">
                                 <div class="single-input-item">
-                                    <input type="text" name="last_name" placeholder="Last Name *" required/>
+                                    <input type="text" name="last_name" placeholder="Apellidos" required/>
                                 </div>
                             </div>
                         </div>
@@ -231,13 +162,13 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="single-input-item">
-                                    <input type="email" name="email_address" placeholder="Email Address *" required/>
+                                    <input type="email" name="email_address" placeholder="Correo" required/>
                                 </div>
                             </div>
 
                             <div class="col-lg-6">
                                 <div class="single-input-item">
-                                    <input type="text" name="contact_subject" placeholder="Subject *" required/>
+                                    <input type="text" name="contact_subject" placeholder="Asunto" required/>
                                 </div>
                             </div>
                         </div>
@@ -246,11 +177,11 @@
                             <div class="col-lg-12">
                                 <div class="single-input-item">
                                     <textarea name="message" id="message" cols="30" rows="6"
-                                              placeholder="Message"></textarea>
+                                              placeholder="Mensaje"></textarea>
                                 </div>
 
                                 <div class="single-input-item text-center">
-                                    <button type="submit" name="submit" class="btn-add-to-cart">Send Meassage</button>
+                                    <button type="submit" name="submit" class="btn-add-to-cart">Enviar</button>
                                 </div>
 
                                 <!-- Form Notification -->
@@ -266,105 +197,84 @@
 </div>
 <!--== Page Content Wrapper End ==-->
 
+
 <!-- Footer Area Start -->
 <footer id="footer-area">
-    <!-- Footer Call to Action Start -->
-    <div class="footer-callto-action">
-        <div class="ruby-container">
-            <div class="callto-action-wrapper">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6">
-                        <!-- Single Call-to Action Start -->
-                        <div class="single-callto-action d-flex">
-                            <figure class="callto-thumb">
-                                <img src="assets/img/air-plane.png" alt="WorldWide Shipping"/>
-                            </figure>
-                            <div class="callto-info">
-                                <h2>Free Shipping Worldwide</h2>
-                                <p>On order over $150 - 7 days a week</p>
-                            </div>
-                        </div>
-                        <!-- Single Call-to Action End -->
-                    </div>
+    <div class="container">
+        <div class="row">
+            <!-- Columna 1: Acerca de -->
+            <div class="col-6 col-lg-4 col-sm-6 col-md-6">
+                <h3>Esencia Real</h3>
+                <p>Joyas auténticas, waterproof e hipoalergénicas. Descubre nuestras nuevas colecciones y diseños exclusivos.</p>
+            </div>
 
-                    <div class="col-lg-3 col-md-6">
-                        <!-- Single Call-to Action Start -->
-                        <div class="single-callto-action d-flex">
-                            <figure class="callto-thumb">
-                                <img src="assets/img/support.png" alt="Support"/>
-                            </figure>
-                            <div class="callto-info">
-                                <h2>24/7 CUSTOMER SERVICE</h2>
-                                <p>Call us 24/7 at 000 - 123 - 456k</p>
-                            </div>
-                        </div>
-                        <!-- Single Call-to Action End -->
-                    </div>
+            <!-- Columna 2: Categorías -->
+            <div class="col-6 col-lg-2 col-sm-3 col-md-3">
+                <h3>Categorías</h3>
+                <ul>
+                    <li><a href="collares.html">Collares</a></li>
+                    <li><a href="aretes.html">Aretes</a></li>
+                    <li><a href="pulseras.html">Pulseras</a></li>
+                    <li><a href="coleccion.html">Set</a></li>
+                </ul>
+            </div>
 
-                    <div class="col-lg-3 col-md-6">
-                        <!-- Single Call-to Action Start -->
-                        <div class="single-callto-action d-flex">
-                            <figure class="callto-thumb">
-                                <img src="assets/img/money-back.png" alt="Money Back"/>
-                            </figure>
-                            <div class="callto-info">
-                                <h2>MONEY BACK Guarantee!</h2>
-                                <p>Send within 30 days</p>
-                            </div>
-                        </div>
-                        <!-- Single Call-to Action End -->
-                    </div>
+            <!-- Columna 3: Información -->
+            <div class="col-6 col-lg-3 col-sm-3 col-md-3">
+                <h3>Información</h3>
+                <ul>
+                    <li><a href="#terminos.html">Términos y condiciones</a></li>
+                    <li><a href="#reclamaciones.html">Libro de reclamaciones</a></li>
+                    <li><a href="#envios">Envíos y entregas</a></li>
+                    <li><a href="#preguntas">Preguntas frecuentes</a></li>
+                </ul>
+            </div>
 
-                    <div class="col-lg-3 col-md-6">
-                        <!-- Single Call-to Action Start -->
-                        <div class="single-callto-action d-flex">
-                            <figure class="callto-thumb">
-                                <img src="assets/img/cog.png" alt="Guide"/>
-                            </figure>
-                            <div class="callto-info">
-                                <h2>SHOPPING GUIDE</h2>
-                                <p>Quis Eum Iure Reprehenderit</p>
-                            </div>
-                        </div>
-                        <!-- Single Call-to Action End -->
-                    </div>
-                </div>
+            <!-- Columna 4: Contacto -->
+            <div class="col-6 col-lg-3 col-sm-3 col-md-4">
+                <h3>Contacto</h3>
+                <ul>
+                    <li>
+                        <a href="#">
+                            +51 922 825 229
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook"></i>esenciareal.pe
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/esenciareal.pe/" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>esenciareal.pe
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.tiktok.com/@esenciareal.pe?_t=8rJraRe3ZTU&_r=1" target="_blank">
+                            <i class="fa-brands fa-tiktok"></i>esenciareal.pe
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="mailto:esenciareal.peru@gmail.com">
+                            <i class="fa-solid fa-envelope"></i>esenciareal.peru@gmail.com
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
-    <!-- Footer Call to Action End -->
-
-    <!-- Footer Follow Up Area Start -->
-    <div class="footer-followup-area">
-            <div class="followup-wrapper">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <div class="follow-content-wrap">
-                            <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="logo"/></a>
-                            <p>Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum</p>
-
-                            <div class="footer-social-icons">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-pinterest"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
-                                <a href="#"><i class="fa fa-flickr"></i></a>
-                            </div>
-
-                            <a href="#"><img src="assets/img/payment.png" alt="Payment Method"/></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    </div>
-    <!-- Footer Follow Up Area End -->
-
 </footer>
 <!-- Footer Area End -->
 
 <!-- Scroll to Top Start -->
 <a href="#" class="scrolltotop"><i class="fa fa-angle-up"></i></a>
 <!-- Scroll to Top End -->
+
+<a href="https://api.whatsapp.com/send?phone=922825229&text=Hola, me gustaría obtener más información sobre los servicios que brindan" class="float" target="_blank">
+    <i class="fa-brands fa-whatsapp"></i>
+</a>
+
 
 
 <!--=======================Javascript============================-->

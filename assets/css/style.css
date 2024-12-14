@@ -414,6 +414,7 @@ button:focus, button:active, button.btn:focus, button.btn:active {
     line-height: 1.5;
     font-weight: 700;
     text-transform: uppercase;
+    margin-bottom: 50px;
 }
 
 .btn-add-to-cart:hover {
@@ -1730,7 +1731,7 @@ address strong, address b {
 
 /*== Page Title Area Start ==*/
 #page-title-area {
-    background-image: url("../img/page-title-bg.jpg");
+    background-image: url("../img/categorias/1.png");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -1742,7 +1743,7 @@ address strong, address b {
 }
 
 #page-title-area:after {
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: rgba(0, 0, 0, 0.45);
     content: "";
     position: absolute;
     left: 0;
@@ -1763,6 +1764,87 @@ address strong, address b {
 
 @media only screen and (min-width: 320px) and (max-width: 575px) {
     #page-title-area .page-title-content h1 {
+        font-size: 3.2rem;
+    }
+}
+
+
+/*== Page Title Area Start ==*/
+#page-title-areaB {
+    background-image: url("../img/categorias/2.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 100px 0 100px;
+    z-index: 1;
+    margin: 0 4%;
+    border-radius: 10px;
+}
+
+#page-title-areaB:after {
+    background-color: rgba(0, 0, 0, 0.45);
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    border-radius: 10px;
+}
+
+#page-title-areaB .page-title-content h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+    font-size: 4.2rem;
+    font-weight: 400;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+    #page-title-areaB .page-title-content h1 {
+        font-size: 3.2rem;
+    }
+}
+
+
+
+/*== Page Title Area Start ==*/
+#page-title-areaC {
+    background-image: url("../img/categorias/3.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 100px 0 100px;
+    z-index: 1;
+    margin: 0 4%;
+    border-radius: 10px;
+}
+
+#page-title-areaC:after {
+    background-color: rgba(0, 0, 0, 0.45);
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    border-radius: 10px;
+}
+
+#page-title-areaC .page-title-content h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+    font-size: 4.2rem;
+    font-weight: 400;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+    #page-title-areaC .page-title-content h1 {
         font-size: 3.2rem;
     }
 }
@@ -1896,7 +1978,13 @@ address strong, address b {
 }
 
 #banner-area #banner-carousel .single-carousel-wrap.home_6_slide_1 {
-    background-image: url("../img/banner/banner.png");
+    background-image: url("../img/banner/4.png");
+}
+
+@media only screen and (max-width: 991px) {
+    #banner-area #banner-carousel .single-carousel-wrap.home_6_slide_1 {
+        background-image: url("../img/banner/3.png");
+    }
 }
 
 #banner-area #banner-carousel .single-carousel-wrap.home_6_slide_2 {
@@ -1905,7 +1993,7 @@ address strong, address b {
 
 @media only screen and (max-width: 991px) {
     #banner-area #banner-carousel .single-carousel-wrap.home_6_slide_2 {
-        background-image: url("../img/banner/BANNER (1).png");
+        background-image: url("../img/banner/2.png");
     }
 }
 
@@ -5195,6 +5283,7 @@ fieldset legend {
 
 .contact-form-wrap {
     margin-top: 60px;
+    padding: 15px;
 }
 
 .contact-form-wrap h2 {

@@ -1,28 +1,29 @@
 export const aretes = [
     {
-        nombre: "Aretes Aura",
+        nombre: "Arete Aura",
         precio: "S/.15.00",
         imagen: "assets/img/aretes/1.arete-aura/1.png",
-        imagen2: "6assets/img/aretes/1.arete-aura/2.png",
+        imagen2: "assets/img/aretes/1.arete-aura/2.png",
         imagen3: "assets/img/aretes/1.arete-aura/3.png",
+        imagen4: "assets/img/aretes/1.arete-aura/4.png",
+        imagen5: "assets/img/aretes/1.arete-aura/5.png",
         oro: true,
         plata: true,
         "caracteristicas": [
             "Acero inoxidable",
             "Chapado en oro de 18 quilates",
-            "Aleación de zinc",
             "Hipoalergénicas"
         ],
         "descripcion1": "Con una aguja de acero inoxidable y un elegante chapado en oro de 18 quilates, este producto combina durabilidad y estilo. La aleación de zinc aporta ligereza y resistencia, lo que lo hace perfecto para un uso prolongado y libre de preocupaciones. Ideal para pieles sensibles gracias a sus propiedades hipoalergénicas.",
         "descripcion2": "Medidas aproximadas: 1.8 cm de largo y 1 cm de ancho. El tamaño compacto y cómodo lo convierte en una opción ideal para quienes buscan elegancia y comodidad en un solo accesorio."
     },
     {
-        nombre: "Aretes Nara",
-        precio: "S/.17.00",
+        nombre: "Arete Nara",
+        precio: "S/.18.00",
         imagen: "assets/img/aretes/2.arete-nara/1.png",
-        imagen2: "assets/img/new-product-1.jpg",
-        imagen3: "assets/img/new-product-1.jpg",
-        imagen4: "assets/img/new-product-1.jpg",
+        imagen2: "assets/img/aretes/2.arete-nara/2.png",
+        imagen3: "assets/img/aretes/2.arete-nara/3.png",
+        imagen4: "assets/img/aretes/2.arete-nara/4.png",
         oro: true,
         plata: true,
         "caracteristicas": [
@@ -35,7 +36,7 @@ export const aretes = [
         "descripcion2": "Sus dimensiones de 2 cm de ancho y 2.3 cm de largo lo hacen cómodo y versátil para el uso diario. Producto hipoalergénico, ideal para uso prolongado."
 },
     {
-        nombre: "Aretes Lia",
+        nombre: "Arete Lia",
         precio: "S/.18.00",
         imagen: "assets/img/aretes/3.argolla-lia/1.png",
         imagen2: "assets/img/aretes/3.argolla-lia/2.png",
@@ -51,7 +52,7 @@ export const aretes = [
         "descripcion2": "2 cm de largo y 0.5 cm de grosor.."
     },
     {
-        nombre: "Aretes Siara",
+        nombre: "Arete Siara",
         precio: "S/.18.00",
         imagen: "assets/img/aretes/4.arete-siara/1.png",
         imagen2: "assets/img/aretes/4.arete-siara/2.png",
@@ -100,7 +101,7 @@ export const aretes = [
     },
     {
         nombre: "Arete Aitana",
-        precio: "S/.0.00",
+        precio: "S/.16.00",
         imagen: "assets/img/aretes/arete-aitana/1.png",
         imagen2: "assets/img/aretes/arete-aitana/2.png",
         imagen3: "assets/img/aretes/arete-aitana/3.png",
@@ -134,7 +135,7 @@ export const aretes = [
     },
     {
         nombre: "Arete Ginebra",
-        precio: "S/.0.00",
+        precio: "S/.19.00",
         imagen: "assets/img/aretes/arete-ginebra/1.png",
         imagen2: "assets/img/aretes/arete-ginebra/2.png",
         imagen3: "assets/img/aretes/arete-ginebra/3.png",
@@ -152,7 +153,7 @@ export const aretes = [
     },
     {
         nombre: "Arete Larisa",
-        precio: "S/.0.00",
+        precio: "S/.16.00",
         imagen: "assets/img/aretes/arete-larisa/1.png",
         imagen2: "assets/img/aretes/arete-larisa/2.png",
         imagen3: "assets/img/aretes/arete-larisa/3.png",
@@ -205,7 +206,7 @@ export const aretes = [
     },
     {
         nombre: "Arete Sofía",
-        precio: "S/.0.00",
+        precio: "S/.17.00",
         imagen: "assets/img/aretes/arete-sofia/1.png",
         imagen2: "assets/img/aretes/arete-sofia/2.png",
         imagen3: "assets/img/aretes/arete-sofia/3.png",
@@ -223,7 +224,7 @@ export const aretes = [
     },
     {
         nombre: "Argolla Alba",
-        precio: "S/.0.00",
+        precio: "S/.21.00",
         imagen: "assets/img/aretes/argolla-alba/1.png",
         imagen2: "assets/img/aretes/argolla-alba/2.png",
         imagen3: "assets/img/aretes/argolla-alba/3.png",
@@ -260,8 +261,8 @@ export const aretes = [
 
     },
     {
-        nombre: "Arete Adriana (corazon)",
-        precio: "S/.0.00",
+        nombre: "Arete Adriana",
+        precio: "S/.17.00",
         imagen: "assets/img/aretes/arete-adriana/1.png",
         imagen2: "assets/img/aretes/arete-adriana/2.png",
         imagen3: "assets/img/aretes/arete-adriana/3.png",
@@ -278,11 +279,13 @@ export const aretes = [
     
     },
     {
-        nombre: "Arete Alessia (bolita)",
-        precio: "S/.0.00",
-        imagen: "assets/img/aretes/arete-adriana/1.png",
-        imagen2: "assets/img/aretes/arete-adriana/2.png",
-        imagen3: "assets/img/aretes/arete-adriana/3.png",
+        nombre: "Arete Alessia",
+        precio: "S/.6.00 - S/.9.00",
+        imagen: "assets/img/aretes/arete-alessia/1.png",
+        imagen2: "assets/img/aretes/arete-alessia/2.png",
+        imagen3: "assets/img/aretes/arete-alessia/3.png",
+        imagen4: "assets/img/aretes/arete-alessia/4.png",
+        imagen5: "assets/img/aretes/arete-alessia/5.png",
         oro: true,
         plata: true,
         "caracteristicas": [
@@ -298,11 +301,12 @@ export const aretes = [
     },
 
     {
-        nombre: "Arete Nerea (perla rectangular)",
-        precio: "S/.0.00",
-        imagen: "assets/img/aretes/arete-adriana/1.png",
-        imagen2: "assets/img/aretes/arete-adriana/2.png",
-        imagen3: "assets/img/aretes/arete-adriana/3.png",
+        nombre: "Aretes Nerea",
+        precio: "S/.15.00",
+        imagen: "assets/img/aretes/arete-nerea/1.png",
+        imagen2: "assets/img/aretes/arete-nerea/2.png",
+        imagen3: "assets/img/aretes/arete-nerea/3.png",
+        imagen4: "assets/img/aretes/arete-nerea/4.png",
         oro: false,
         plata: true,
         "caracteristicas": [
@@ -316,29 +320,10 @@ export const aretes = [
     
     },
     {
-        nombre: "Arete Brunella (perla circular)",
-        precio: "S/.0.00",
-        imagen: "assets/img/aretes/arete-adriana/1.png",
-        imagen2: "assets/img/aretes/arete-adriana/2.png",
-        imagen3: "assets/img/aretes/arete-adriana/3.png",
-        oro: false,
-        plata: true,
-        "caracteristicas": [
-            "Acero inoxidable",
-            "Hipoalergénico",
-            "Waterproof"
-        ],
-        "descripcion1": "Estos aretes básicos están fabricados en acero inoxidable, lo que les otorga una gran durabilidad. Su diseño brillante, similar a un diamante, añade un toque de elegancia sin ser un diamante real. Son hipoalergénicos, perfectos para pieles sensibles, y su resistencia waterproof los hace ideales para cualquier entorno.",
-        "descripcion2": "Disponibles en tres tamaños (3mm, 6mm y 8mm), estos aretes ofrecen una opción versátil para complementar tu estilo con un toque sutil pero brillante, adecuado para cualquier ocasión."
-
-    },
-
-    {
         nombre: "Arete Briana",
-        precio: "S/.0.00",
-        imagen: "assets/img/aretes/arete-adriana/1.png",
-        imagen2: "assets/img/aretes/arete-adriana/2.png",
-        imagen3: "assets/img/aretes/arete-adriana/3.png",
+        precio: "S/.17.00",
+        imagen: "assets/img/aretes/arete-briana/1.png",
+        imagen2: "assets/img/aretes/arete-briana/2.png",
         oro: true,
         plata: false,
         "caracteristicas": [
@@ -358,17 +343,17 @@ export const collares = [
     {
         nombre: "Collar Serpiente",
         precio: "S/.20.00",
-        imagen: "assets/img/collares/11.png",
-        imagen2: "assets/img/new-product-1.jpg",
-        imagen3: "assets/img/new-product-1.jpg",
-        imagen4: "assets/img/new-product-1.jpg",
+        imagen: "assets/img/collares/collar-serpiente/1.png",
+        imagen2: "assets/img/collares/collar-serpiente/2.png",
+        imagen3: "assets/img/collares/collar-serpiente/3.png",
+        imagen4: "assets/img/collares/collar-serpiente/4.png",
+        imagen5: "assets/img/collares/collar-serpiente/5.png",
         oro: true,
         plata: true,
         "caracteristicas": [
             "Acero inoxidable",
             "Chapado en oro de 18 quilates",
-            "Waterproof",
-            "Hipoalergénico"
+            "Waterproof"
         ],
         "descripcion1": "Diseñado en acero inoxidable de alta calidad con un chapado en oro de 18 quilates, garantizando una durabilidad y un acabado elegante. Su característica waterproof asegura que conservará su color y brillo en todo momento, y es completamente hipoalergénico, brindando confort incluso para pieles sensibles.",
         "descripcion2": "Con una longitud ajustable de 42 cm más 5 cm de extensión y un peso ligero de solo 7 gramos, es una pieza versátil y cómoda para el uso diario."
@@ -376,16 +361,16 @@ export const collares = [
     {
         nombre: "Collar Ibiza",
         precio: "S/.18.00",
-        imagen: "assets/img/collares/10.png",
-        imagen2: "assets/img/new-product-1.jpg",
-        imagen3: "assets/img/new-product-1.jpg",
-        imagen4: "assets/img/new-product-1.jpg",
+        imagen: "assets/img/collares/collar-ibiza/1.png",
+        imagen2: "assets/img/collares/collar-ibiza/2.png",
+        imagen3: "assets/img/collares/collar-ibiza/3.png",
+        imagen4: "assets/img/collares/collar-ibiza/4.png",
+        imagen5: "assets/img/collares/collar-ibiza/5.png",
         oro: true,
         plata: true,
         "caracteristicas": [
             "Acero inoxidable",
-            "Waterproof",
-            "Hipoalergénico"
+            "Waterproof"
         ],
         "descripcion1": "Collar fabricada en acero inoxidable, lo que le otorga gran resistencia y un acabado moderno. Es waterproof, lo que asegura que mantenga su brillo y color original con el paso del tiempo, incluso en ambientes húmedos. Además, es hipoalergénica, lo que la hace segura y cómoda para todo tipo de piel.",
         "descripcion2": "Con una longitud de 38 cm más 5 cm de extensión y un peso ligero de 3 gramos."
@@ -393,17 +378,15 @@ export const collares = [
     {
         nombre: "Collar Maria",
         precio: "S/.19.00",
-        imagen: "assets/img/collares/12.png",
-        imagen2: "assets/img/new-product-1.jpg",
-        imagen3: "assets/img/new-product-1.jpg",
-        imagen4: "assets/img/new-product-1.jpg",
+        imagen: "assets/img/collares/collar-maria/1.png",
+        imagen2: "assets/img/collares/collar-maria/2.png",
+        imagen3: "assets/img/collares/collar-maria/3.png",
         oro: true,
         plata: false,
         "caracteristicas": [
             "Acero inoxidable",
             "Chapado en oro de 14 quilates",
-            "Waterproof",
-            "Hipoalergénico"
+            "Waterproof"
         ],
         "descripcion1": "Collar fabricado en acero inoxidable de alta calidad y cuenta con un chapado en oro de 14 quilates, logrando una apariencia elegante y resistente. Su acabado waterproof permite que conserve su color y brillo en cualquier ocasión. Además, es hipoalergénico, lo que lo hace seguro y cómodo para la piel, incluso en uso prolongado.",
         "descripcion2": "Con una longitud ajustable de 45 cm más 5 cm de extensión, el collar incluye un dije en forma de corazón de 1.2 cm de largo y 1 cm de ancho."
@@ -411,19 +394,101 @@ export const collares = [
     {
         nombre: "Cadena Prada",
         precio: "S/.14.00",
-        imagen: "assets/img/collares/13.png",
-        imagen2: "assets/img/new-product-1.jpg",
-        imagen3: "assets/img/new-product-1.jpg",
-        imagen4: "assets/img/new-product-1.jpg",
+        imagen: "assets/img/collares/collar-prada/1.png",
+        imagen2: "assets/img/collares/collar-prada/2.png",
         oro: false,
         plata: true,
         "caracteristicas": [
             "Acero inoxidable",
-            "Waterproof",
-            "Hipoalergénico"
+            "Waterproof"
         ],
         "descripcion1": "Elaborada en acero inoxidable de alta calidad, esta cadena es resistente y elegante, perfecta para el uso diario. Su diseño waterproof asegura que mantenga su apariencia impecable en cualquier situación, además de ser completamente hipoalergénica, brindando comodidad a pieles sensibles.",
         "descripcion2": "Con una longitud de 45 cm, esta cadena es versátil y se puede combinar fácilmente con diferentes estilos y colgantes."
+    },
+    {
+        nombre: "Collar Fernanda",
+        precio: "S/.18.00",
+        imagen: "assets/img/collares/collar-fernanda/1.png",
+        imagen2: "assets/img/collares/collar-fernanda/2.png",
+        imagen3: "assets/img/collares/collar-fernanda/3.png",
+        imagen4: "assets/img/collares/collar-fernanda/4.png",
+        oro: true,
+        plata: true,
+        "caracteristicas": [
+            "Acero inoxidable",
+            "Chapado en oro de 18 quilates",
+            "Waterproof"
+        ],
+        "descripcion1": "Este elegante collar está fabricado en acero inoxidable y chapado en oro de 18 quilates, lo que garantiza durabilidad y un acabado brillante. Su diseño waterproof lo hace perfecto para cualquier ocasión. Los dijes, disponibles en dorado y plateado, añaden un toque distintivo y sofisticado.",
+        "descripcion2": "El collar mide 40cm con una extensión de 5cm, y el collar incluye dijes de 0.7cm de dorado y de 0.7cm y 0.8cm de plateado."
+    },
+    {
+        nombre: "Collar Antonella",
+        precio: "S/.17.00",
+        imagen: "assets/img/collares/collar-cayetana/1.png",
+        imagen2: "assets/img/collares/collar-cayetana/2.png",
+        oro: true,
+        plata: false,
+        "caracteristicas": [
+            "Acero inoxidable",
+            "Chapado en oro de 18 quilates",
+            "Waterproof"
+        ],
+        "descripcion1": "Este collar en forma torcida está fabricado en acero inoxidable y chapado en 18 quilates, lo que le confiere un acabado brillante y una gran durabilidad. Su diseño waterproof lo hace ideal para usar en cualquier ocasión, manteniendo su elegancia y resistencia en todo momento.",
+        "descripcion2": "El collar tiene una longitud de 45cm con 5cm de extensión, perfecta para un ajuste cómodo y versátil."
+    },
+    {
+        nombre: "Collar Priscila",
+        precio: "S/.17.00",
+        imagen: "assets/img/collares/collar-perla/1.png",
+        imagen2: "assets/img/collares/collar-perla/2.png",
+        oro: false,
+        plata: true,
+        "caracteristicas": [
+            "Acero inoxidable",
+            "Waterproof"
+        ],
+        "descripcion1": "Este delicado collar con perla está hecho de acero inoxidable, lo que garantiza su resistencia y durabilidad. Su diseño waterproof lo convierte en una pieza práctica y elegante para el uso diario. La perla aporta un toque de sofisticación y minimalismo.",
+        "descripcion2": "El collar tiene 41cm de longitud con 6cm de extensión, y la perla tiene un tamaño de 0.10cm."
+
+    },
+    {
+        nombre: "Collar Gota",
+        precio: "S/.18.00",
+        imagen: "assets/img/collares/collar-gota/1.png",
+        imagen2: "assets/img/collares/collar-gota/2.png",
+        imagen3: "assets/img/collares/collar-gota/3.png",
+
+        oro: true,
+        plata: false,
+        "caracteristicas": [
+            "Acero inoxidable",
+            "Waterproof"
+        ],
+        "descripcion1": "Este collar con dije de gota está fabricado en acero inoxidable, lo que garantiza su durabilidad y resistencia. Su diseño waterproof lo hace ideal para cualquier ambiente, y el dije de gota añade un toque elegante y moderno.",
+    "descripcion2": "El collar mide 45cm con una extensión de 5cm, y el dije tiene unas dimensiones de 1.2cm de alto y 0.7cm de ancho."
+
+
+    },
+
+
+    {
+        nombre: "Collar Alondra",
+        precio: "S/.22.00",
+        imagen: "assets/img/collares/collar-trebol/1.png",
+        imagen2: "assets/img/collares/collar-trebol/2.png",
+        imagen3: "assets/img/collares/collar-trebol/3.png",
+        oro: true,
+        plata: false,
+        "caracteristicas": [
+            "Acero inoxidable",
+            "Waterproof"
+        ],
+        "descripcion1": "Este collar con dije de trébol blanco está fabricado en acero inoxidable, lo que garantiza su resistencia y durabilidad. Su diseño waterproof lo hace perfecto para cualquier ocasión. El dije de trébol aporta un toque elegante y simbólico, ideal para quienes buscan una pieza única y sofisticada.",
+    "descripcion2": "El collar tiene 44.5cm de longitud con 5cm de extensión, y el dije de trébol tiene un tamaño de 1.3cm de ancho y alto."
+
+
+
     },
 
 ];
@@ -431,8 +496,25 @@ export const collares = [
 
 export const pulseras = [
     {
-        nombre: "FLOR",
-        precio: "S/.00.00",
+        nombre: "PULSERA ALONDRA",
+        precio: "S/.22.00",
+        imagen: "assets/img/pulseras/trebol-blanco/1.png",
+        imagen2: "assets/img/pulseras/trebol-blanco/2.png",
+        oro: true,
+        plata: false,
+        "caracteristicas": [
+            "Acero inoxidable",
+            "Chapado en oro de 18 quilates",
+            "Waterproof",
+            "Hipoalergénico"
+        ],
+        "descripcion1": "Esta pulsera está hecha de acero inoxidable y chapada en 18 quilates, lo que le confiere un acabado brillante y una gran durabilidad. Su diseño waterproof asegura que se mantenga impecable en todo momento, independientemente de las condiciones climáticas.",
+        "descripcion2": "La pulsera tiene un tamaño de 16cm con una extensión de 5cm, ofreciendo un ajuste cómodo y flexible."
+
+    },
+    {
+        nombre: "PULSERA ROMINA",
+        precio: "S/.18.00",
         imagen: "assets/img/pulseras/FLORDORADA/1.png",
         imagen2: "assets/img/pulseras/FLORDORADA/2.png",
         imagen3: "assets/img/pulseras/FLORDORADA/3.png",
@@ -444,8 +526,9 @@ export const pulseras = [
             "Waterproof",
             "Hipoalergénico"
         ],
-        "descripcion1": "",
-        "descripcion2": ""
+        "descripcion1": "Esta pulsera dorada está fabricada en acero inoxidable y chapada en 18 quilates, lo que le otorga un acabado brillante y una gran resistencia. Sus cinco dijes, de 1.3cm de ancho y alto, añaden un toque elegante y versátil, mientras que su diseño waterproof la hace ideal para usar en cualquier momento, sin importar las condiciones climáticas.",
+        "descripcion2": "La pulsera tiene una longitud de 16cm con una extensión de 5cm, y los cinco dijes tienen un tamaño de 1.3cm de ancho y alto."
+    
     },
     {
         nombre: "Pulsera Cayetana",
@@ -691,29 +774,16 @@ export const pulseras = [
 
 
 export const coleccion = [
+    
     {
-        nombre: "Set Pareja",
-        precio: "$40.00",
-        imagen: "assets/img/new-product-1.jpg",
-        imagen2: "assets/img/new-product-1.jpg",
-        imagen3: "assets/img/new-product-1.jpg",
-        imagen4: "assets/img/new-product-1.jpg",
-        introduccion: "Colección exclusiva",
+        nombre: "Set Serpiente / Dorado",
+        precio: "S/.35.00",
+        imagen: "assets/img/set/set-serpiente-dorado/1.png",
+        imagen2: "assets/img/pulseras/2serpiente/2.png",
+        imagen3: "assets/img/pulseras/2serpiente/3.png",
+        imagen4: "assets/img/collares/collar-serpiente/2.png",
         oro: true,
         plata: false,
-        caracteristicas: ["Elegante"],
-        descripcion1: "Colección de piezas exclusivas",
-        descripcion2: "Perfecta para coleccionistas"
-    },
-    {
-        nombre: "Set Serpiente",
-        precio: "$42.00",
-        imagen: "assets/img/new-product-2.jpg",
-        imagen2: "assets/img/new-product-1.jpg",
-        imagen3: "assets/img/new-product-1.jpg",
-        imagen4: "assets/img/new-product-1.jpg",
-        oro: true,
-        plata: true,
         "caracteristicas": [
             "Acero inoxidable",
             "Chapado en oro de 18 quilates",
@@ -724,18 +794,74 @@ export const coleccion = [
         "descripcion2": "El collar tiene una longitud ajustable de 42 cm más 5 cm de extensión y un peso de solo 7 gramos, ideal para el uso diario. La pulsera tiene una longitud de 16 cm más 5.5 cm de extensión, también con un peso ligero, asegurando comodidad y versatilidad para complementar cualquier estilo. Este set es perfecto para quienes buscan un look elegante y moderno."
     },
     {
-        nombre: "Set Ibiza",
-        precio: "$44.00",
-        imagen: "assets/img/new-product-3.jpg",
-        imagen2: "assets/img/new-product-1.jpg",
-        imagen3: "assets/img/new-product-1.jpg",
-        imagen4: "assets/img/new-product-1.jpg",
-        introduccion: "Colección de lujo",
+        nombre: "Set Serpiente / Plata",
+        precio: "S/.35.00",
+        imagen: "assets/img/set/set-serpiente-plata/5.png",
+        imagen2: "assets/img/pulseras/2serpiente/4.png",
+        imagen3: "assets/img/pulseras/2serpiente/5.png",
+        imagen4: "assets/img/collares/collar-serpiente/4.png",
         oro: false,
         plata: true,
-        caracteristicas: ["Exclusiva"],
-        descripcion1: "Colección de lujo en plata",
-        descripcion2: "Para eventos especiales"
+        "caracteristicas": [
+            "Acero inoxidable",
+            "Waterproof",
+            "Hipoalergénico"
+        ],
+        "descripcion1": "Este elegante set incluye un collar y una pulsera serpiente, ambos fabricados en acero inoxidable de alta calidad y chapados en oro de 18 quilates, lo que asegura una durabilidad excepcional y un acabado sofisticado. La característica waterproof garantiza que ambos accesorios mantendrán su brillo y color sin importar las condiciones. Además, son completamente hipoalergénicos, lo que los hace cómodos y seguros para todo tipo de piel.",
+        "descripcion2": "El collar tiene una longitud ajustable de 42 cm más 5 cm de extensión y un peso de solo 7 gramos, ideal para el uso diario. La pulsera tiene una longitud de 16 cm más 5.5 cm de extensión, también con un peso ligero, asegurando comodidad y versatilidad para complementar cualquier estilo. Este set es perfecto para quienes buscan un look elegante y moderno."
+    },
+    {
+        nombre: "Set Ibiza / Dorado",
+        precio: "S/.32.00",
+        imagen: "assets/img/set/set-ibiza-dorado/2.png",
+        imagen2: "assets/img/pulseras/7IBIZA/2.png",
+        imagen3: "assets/img/collares/collar-ibiza/2.png",
+        imagen4: "assets/img/collares/collar-ibiza/3.png",
+        introduccion: "Colección de lujo",
+        oro: true,
+        plata: false,
+        "caracteristicas": [
+            "Acero inoxidable",
+            "Chapado en oro de 18 quilates",
+            "Waterproof",
+            "Hipoalergénico"
+        ],
+        "descripcion1": "Este set de pulsera y collar está hecho de acero inoxidable chapado en oro de 18 quilates, lo que les proporciona un brillo y durabilidad excepcionales. Ambos son waterproof, lo que asegura que mantendrán su color y aspecto original con el tiempo, incluso en condiciones húmedas. Además, su construcción hipoalergénica los hace ideales para pieles sensibles.",
+    "descripcion2": "La pulsera tiene una longitud de 16 cm más 5.5 cm de extensión, y el collar tiene una longitud de 38 cm más 5 cm de extensión, lo que garantiza un ajuste cómodo y adaptable a diferentes tamaños."
+
+    },
+    {
+        nombre: "Set Ibiza / Plata",
+        precio: "S/.32.00",
+        imagen: "assets/img/set/set-ibiza-plata/3.png",
+        imagen2: "assets/img/pulseras/7IBIZA/4.png",
+        imagen3: "assets/img/collares/collar-ibiza/4.png",
+        imagen4: "assets/img/collares/collar-ibiza/5.png",
+        oro: false,
+        plata: true,
+        "caracteristicas": [
+            "Acero inoxidable",
+            "Waterproof",
+            "Hipoalergénico"
+        ],
+        "descripcion1": "Este set de pulsera y collar está hecho de acero inoxidable chapado en oro de 18 quilates, lo que les proporciona un brillo y durabilidad excepcionales. Ambos son waterproof, lo que asegura que mantendrán su color y aspecto original con el tiempo, incluso en condiciones húmedas. Además, su construcción hipoalergénica los hace ideales para pieles sensibles.",
+    "descripcion2": "La pulsera tiene una longitud de 16 cm más 5.5 cm de extensión, y el collar tiene una longitud de 38 cm más 5 cm de extensión, lo que garantiza un ajuste cómodo y adaptable a diferentes tamaños."
+    },
+    {
+        nombre: "Set Trebol blanca",
+        precio: "S/.37.00",
+        imagen: "assets/img/set/set-trebol/4.png",
+        imagen2: "assets/img/pulseras/trebol-blanco/2.png",
+        imagen3: "assets/img/collares/collar-trebol/1.png",
+        oro: true,
+        plata: false,
+        "caracteristicas": [
+            "Acero inoxidable",
+            "Waterproof",
+        ],
+        "descripcion1": "Este set de collar y pulsera está fabricado en acero inoxidable, garantizando resistencia y durabilidad. El collar, con su dije de trébol blanco, aporta un toque elegante y simbólico, ideal para quienes buscan una pieza única y sofisticada. Ambos productos son waterproof, asegurando que mantendrán su brillo y color a lo largo del tiempo. La pulsera, chapada en 18 quilates, tiene un acabado brillante y una gran durabilidad.",
+        "descripcion2": "El collar tiene una longitud de 44.5 cm con 5 cm de extensión, y el dije de trébol mide 1.3 cm de ancho y alto. La pulsera tiene un tamaño de 16 cm con una extensión de 5 cm, ofreciendo un ajuste cómodo y flexible."
+
     },
     
 
