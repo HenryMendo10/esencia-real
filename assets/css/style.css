@@ -5723,7 +5723,7 @@ fieldset legend {
   
  .accordion-container .accordion {
     margin: 1rem 0;
-    background-color: #929292;
+    background-color: var(--color-primario);
     border-radius: .5rem;
   }
   
