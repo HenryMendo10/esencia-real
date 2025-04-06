@@ -2298,6 +2298,8 @@ address strong, address b {
 .products-wrapper .single-product-item .product-thumb img {
     width: 100%;
     border-radius: 15px;
+    border: 2px solid #d8aa1e;
+    
 }
 
 .products-wrapper .single-product-item:hover .product-meta {
@@ -2508,6 +2510,7 @@ address strong, address b {
 @media only screen and (min-width: 992px) {
     .products-wrapper.products-list-view .single-product-item .product-thumb img {
         width: 100px;
+        border: 2px solid black;
     }
 }
 
@@ -2602,6 +2605,8 @@ address strong, address b {
 
 .small-product-list .single-product-item .product-thumb img {
     width: 100%;
+    border: 2px solid black;
+    
 }
 
 .small-product-list .single-product-item .product-details {
@@ -5419,10 +5424,10 @@ fieldset legend {
 .callto-thumb img{
     width: 49px;
 }
-}
+
 @media only screen and (min-width: 320px) and (max-width: 575px), only screen and (min-width: 576px) and (max-width: 767px) {
     .single-callto-action h2 {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         line-height: 1.5;
     }
 }
@@ -5470,14 +5475,14 @@ fieldset legend {
 /* Footer Styles */
 #footer-area {
     background-color: var(--color-primario);
-    color: #FFF;
+    color: black;
     padding: 40px 60px 80px 25px;
 }
 
 /* Títulos */
 #footer-area h3 {
     font-weight: bold;
-    color: #FFF;
+    color: black;
 }
 
 /* Listas */
@@ -5491,7 +5496,7 @@ fieldset legend {
 }
 
 #footer-area a {
-    color: #FFF;
+    color: black;
     text-decoration: none;
 }
 
@@ -5627,6 +5632,7 @@ fieldset legend {
 
 .full-width-img {
     object-fit: cover; /* La imagen cubre todo el espacio del contenedor */
+    
 }
 
 .single-gallery-item {
@@ -5635,23 +5641,27 @@ fieldset legend {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 
 .product-thumbnail-wrap img.img-fluid{
     border-radius: 12px;
+    
 }
 
 
 
 .coleccion-oculta img{
     border-radius: 8px;
+    color: #000;
 }
 
 
 .ruby-container .row .logo-area img{
     width: 110px;
     padding-bottom: 0px;
+    
 }
 
 
